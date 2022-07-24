@@ -61,7 +61,8 @@ letter-spacing: 1.2px;
 }
 .padre{
 	display: inline-block;
-	justify-content: center;
+	justify-con
+	tent: center;
 	align-items: center;
 	background-color: rgb(0,100,200);
 	margin:2px;
@@ -70,17 +71,17 @@ letter-spacing: 1.2px;
 .padre img{
 	margin:2px;
 	width: 460px;
-	height: 360px;
+	height: 380px;
 	border-radius: 5%;
 }
 
 .padre a{
 background-color: rgb(50,50,50);
 position:absolute;
-margin-left: -190px;
-margin-top: 135px;
+margin-left: -395px;
+margin-top: 318px;
 color: rgb(255,255,255);
-font-size: 20px;
+font-size: 50px;
 text-decoration-line: none;
 border-radius: 10%;
 padding: 2.5px;
@@ -94,36 +95,47 @@ a:hover{
 
 .padre p{
 position:absolute;
-margin-left:50px;
-margin-top:25px;
+margin-left:45px;
+margin-top:15px;
 color: rgb(255,255,255);
-font-size: 15px;
+font-size: 35px;
+}
+
+.avanza{
+	text-align: center;
+	color: rgb(250,240,230);
+	background-color: rgb(10,20,30);
+	margin-top: 35px;
+}
+.avanza a{
+	display: inline-block;
+	border-style: solid;
+	color: rgb(255,255,255);
+	padding: 10px;
+	font-size: 30px;
+	margin: 30px;
+	border-radius: 100%;
 }
 
 .pie{
 
 	background-color: rgb(15,15,15);
 	color: rgb(255,255,255);
-	width: 98%;
+	width:100%;
+	margin:0;
 	list-style: none;
-	margin: auto;
-	margin-bottom: 150px;
-	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0;
 	padding: 50px 0 50px 0;
-
+	text-align: center;
 }
 
 .pie li{
-	margin:0 100px 0 100px ;
-	text-align: center;
-	font-size: 20px;
-	display: inline-block;
+display: inline-block;	
+font-size: 40px;
+padding: 20px;	
+}
+.pie{
+	font-size: 25px;
 }
 
-.pie p{
-	font-size: 20px;
-	width: 20%;
-	text-align:center;
-	margin-left: -50px;
-	margin-bottom: 50px;
-}
