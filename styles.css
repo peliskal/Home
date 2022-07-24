@@ -58,18 +58,17 @@ margin-bottom: 20px;
 letter-spacing: 1.2px;
 }
 .padre{
-	display: inline-block;
+	margin:auto;
+	width: 98%;
 }
 .padre img{
-	margin: 20px;
-	margin-left: 35px;
-	width: 200px;
-	height: 150px;
+	width: 550px;
+	height: 450px;
 	border-radius: 5%;
 }
 
 .padre a{
-	background-color: rgb(50,50,50);
+background-color: rgb(50,50,50);
 position:absolute;
 margin-left: -190px;
 margin-top: 135px;
