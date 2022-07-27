@@ -71,7 +71,7 @@ letter-spacing: 1.2px;
 	height: 100%;
 	text-align: center;
 }
-.relleno div{
+.relleno img{
 	display: inline-block;
 	border: solid;
 	color: white;
@@ -79,11 +79,6 @@ letter-spacing: 1.2px;
 	width: 400px;
 	height: 600px;
 }
-.relleno div a{
-	margin: auto;
-}
-
-
 
 .avanza{
 
