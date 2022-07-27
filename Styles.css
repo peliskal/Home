@@ -3,6 +3,10 @@ html{
 	padding: 0;
 	margin: 0;
 }
+body{
+	margin-left: 0;
+	margin-right: 0;
+}
 
 .container{
 text-align: center;
@@ -45,9 +49,11 @@ div .titulo{
 	padding: 5px;
 	border: solid;
 	border-radius: 10%;
+	opacity: .6;
 }
 .categorias a:hover{
 	background-color: rgb(90,90,90);
+	opacity: 100%;
 }
 
 .descripcion{
@@ -88,10 +94,15 @@ letter-spacing: 1.2px;
 	display: inline-block;
 	border-style: solid;
 	color: rgb(255,255,255);
-	padding: 10px;
-	font-size: 30px;
+	padding: 20px;
+	font-size: 35px;
 	margin: 30px;
 	border-radius: 50%;
+}
+.avanza a:hover{
+	font-size: 27px;
+	background: rgb(10, 100, 255);
+	opacity: .7;
 }
 
 .pie{
