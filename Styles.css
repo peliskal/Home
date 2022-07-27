@@ -76,7 +76,6 @@ letter-spacing: 1.2px;
 }
 .relleno div{
 	display: inline-block;
-	border: solid;
 	color: white;
 	margin: 15px;
 	width: 400px;
