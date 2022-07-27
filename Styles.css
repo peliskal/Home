@@ -83,8 +83,25 @@ letter-spacing: 1.2px;
 
 }
 .relleno img{
+	border:groove rgb(0, 0,150);
+	border-width: .5px;
 	width: 400px;
 	height: 600px;
+}
+
+.relleno a:hover{
+opacity: 0.5;
+width: 350px;
+height: 550px;
+}
+.relleno a{
+	position: absolute;
+	margin-top: -605px;
+	height: 550px;
+	display: block;
+	width: 400px;
+	height: 600px;
+
 }
 .avanza{
 
