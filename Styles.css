@@ -71,13 +71,16 @@ letter-spacing: 1.2px;
 	height: 100%;
 	text-align: center;
 }
-.relleno div > a{
+.relleno div{
 	display: inline-block;
 	border: solid;
 	color: white;
 	margin: 5px;
 	width: 400px;
 	height: 600px;
+}
+.relleno div a{
+	margin: auto;
 }
 
 
