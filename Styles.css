@@ -80,7 +80,10 @@ letter-spacing: 1.2px;
 	width: 400px;
 	height: 600px;
 }
-
+.relleno img{
+	width: 400px;
+	height: 600px;
+}
 .avanza{
 
 	text-align: center;
