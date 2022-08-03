@@ -7,6 +7,12 @@ body{
 	margin-left: 0;
 	margin-right: 0;
 }
+.donarv{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
 .arriba{
 	position: absolute;
 	margin-top: -50px;
