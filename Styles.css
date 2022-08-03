@@ -7,7 +7,11 @@ body{
 	margin-left: 0;
 	margin-right: 0;
 }
-
+iframe{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 10px;
+}
 .container{
 text-align: center;
 }
@@ -26,6 +30,14 @@ div .titulo{
 	width: 700px;
 	height: 450px;
 	margin-top: -100px;
+}
+.home{
+	width: 600px;
+	height: 120px;
+	border-radius: 10%;
+	margin-left: 300px;
+	margin-top: 50px;
+	position: absolute;
 }
 .separa{
 	background-color: rgb(255,255,255);
