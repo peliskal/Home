@@ -1,0 +1,129 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fondo:#353535;
+    --rojo:#ff2323;
+    --bordes:#000000;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header{
+    height: 80px;
+  background: var(--rojo);
+}
+main{
+    background: linear-gradient(130deg, var(--fondo), var(--bordes), var(--fondo));
+    padding: 2rem 0;
+}
+
+footer{
+    background:var(--rojo);
+    min-height: 350px;
+    position: relative;
+}
+
+
+.menu{
+    display: flex;
+    width: 100%; max-width: 1400px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+.menu > a img{
+    width: 40%;
+    max-height: 150px;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 50%;
+    justify-content: space-around;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+.peliculas{
+    width: 95%; max-width: 1400px;
+    margin: 0 auto; padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.portadaPelicula{
+    flex-grow: 1;
+    width: 300px; max-width: 325px;
+    overflow: hidden;
+    border: 1px solid var(--bordes);
+    position: relative;
+    box-shadow: 5px 5px 5px rgb(177, 177, 177);
+}
+
+.portadaPelicula > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 2/3;
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+}
+.portadaPelicula > img:hover{
+   transform: scale(1.3);
+}
+.portadaPelicula a{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    padding: 1rem .2rem;
+    background-color: #000000d8;
+    left: 0;
+    bottom: 0px;
+    width: 100%;height: auto;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+.portadaPelicula a:hover{
+    color: var(--rojo);
+}
+
+
+
+.contienefoo{
+    position: absolute;
+    width: 100%; 
+    margin: auto;
+    text-align: center;
+   top: 40%;
+}
+
+.contienefoo > ol{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 1rem;
+    list-style: none;
+}
+.contienefoo > ol li{
+    flex-grow: 1;
+    flex-basis: 1;
+}
+.contienefoo > p{
+    margin: 5rem 0 0 0;
+    color: var(--bordes);
+}
