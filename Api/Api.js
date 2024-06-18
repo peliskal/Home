@@ -3,7 +3,22 @@ const ApiKey = '17049sk309d0oai7f7yu5';
 // Construir la URL para la solicitud a la API, incluyendo la clave de la API
 const url = `https://api.streamwish.com/api/file/list?key=${ApiKey}`;
 const ListaCarpetas = `https://api.streamwish.com/api/folder/list?key=${ApiKey}`;
-const ElegidoUser = "2 perros tontos";
+var ElegidoUser= null;
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Recupera el valor de localStorage
+  const nombreGlobal = localStorage.getItem('nombreGlobal');
+  if (nombreGlobal) {
+      console.log("Valor recibido desde localStorage:", nombreGlobal);
+      return ElegidoUser = nombreGlobal;
+      // Aquí puedes agregar cualquier lógica adicional que necesites usando nombreGlobal
+  } else {
+      console.log("No hay valor almacenado en localStorage.");
+  }
+});
 
 
 
@@ -24,7 +39,8 @@ fetch(ListaCarpetas)
     const respuestaCarpetas = data.result.folders; //obtengo las carpetas 
     console.log("carpetas encontradas",respuestaCarpetas);
     respuestaCarpetas.forEach(element => {
-        if( element.name == ElegidoUser){//en el nombre de reemplaza por el nombre de la carpeta seleccionada
+      let elementMin = element.name.toLowerCase();
+        if( elementMin == ElegidoUser.toLowerCase()){//en el nombre de reemplaza por el nombre de la carpeta seleccionada
             //una ves que el nombre de mi carpeta local coincide con el del servidor de videos
             //hago una peticion con el id de carpeta
             //console.log('carpeta encontrada ',element.name, 'carpeta id', element.code);
@@ -32,7 +48,7 @@ fetch(ListaCarpetas)
             //paso el id de la carpeta para hacer una peticion comparando el id de carpeta
             pedir(carpetaAbrir);
         }else{
-            console.log(`la carpeta ${respuestaCarpetas.name}  no encontrada`);
+            console.log(`carpeta no encontrada`);
         }
     });
     
@@ -70,15 +86,20 @@ fetch(ListaCarpetas)
  
 
   function GenerarLista(contenido){
-   let iframe = document.querySelector('#reproductor');
-   iframe.src = contenido.link;
-  // Seleccionar el contenedor por su ID
-  let container = document.querySelector('#listaContainer');
-  // Crear un elemento <p>
-  let li = document.createElement('li');
-  // Asignar el contenido al <p>
-  li.textContent = contenido.title;
-  // Agregar el <p> al contenedor
-  return container.appendChild(li);
+    let iframe = document.querySelector('#reproductor');
+    let link = "https://swdyu.com/e/"+contenido.file_code;
+    iframe.src = link;
+   // Seleccionar el contenedor por su ID
+   let container = document.querySelector('#listaContainer');
+   // Crear un elemento <p>
+   let li = document.createElement('li');
+   // Asignar el contenido al <p>
+   li.textContent = contenido.title;
+   // Agregar el <p> al contenedor
+   return container.appendChild(li);
+ 
+   }
 
-  }
+
+
+
