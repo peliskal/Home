@@ -25,10 +25,20 @@
       imagenPelicula.alt = pelicula.nombre;
   
       const nombrePelicula = document.createElement('a');
-      nombrePelicula.href = pelicula.url;
-      console.log("nombre: ",pelicula.nombre, "url: ", pelicula.imagen);
+      nombrePelicula.href = "Api/mostrar.html";
       nombrePelicula.setAttribute('target', '_blank');
       nombrePelicula.textContent = pelicula.nombre;
+      nombrePelicula.classList.add("elementoA");
+      nombrePelicula.onclick =  function() {
+       const nombrePasar = nombrePelicula.innerText; // Aquí define tu parámetro
+       if (nombrePasar) {
+        pasarNombre(nombrePasar);
+    } else {
+        console.log('El texto del enlace está vacío.');
+    }
+        console.log("variable global",nombrePasar);
+    };
+   
   
       elementoPelicula.appendChild(imagenPelicula);
       elementoPelicula.appendChild(nombrePelicula);
@@ -41,3 +51,15 @@
   
   generarPeliculas();
   
+  function detectarNombre(nombre) {
+    console.log(nombre);
+   return nombre;
+    // Puedes agregar aquí cualquier lógica que desees ejecutar cuando se haga clic en el enlace
+  }
+ 
+
+
+
+
+
+
