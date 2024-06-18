@@ -20,7 +20,9 @@ main{
     margin: .5rem;
     list-style: none;
 }
-
+#listaContainer li > a{
+    text-decoration: none;
+}
 iframe{
    border: 1px solid rgb(0, 0, 0);
    margin: 1rem 0;

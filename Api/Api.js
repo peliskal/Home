@@ -59,7 +59,6 @@ fetch(ListaCarpetas)
   });
 
 
-  
   //llamo a la carpeta y devuelvo el link y titulo del contenido
   function pedir(url){
     fetch(url)
@@ -76,10 +75,12 @@ fetch(ListaCarpetas)
     // Aquí se procesa el JSON recibido de la API
   
   let respuesta = data.result.files;
-   respuesta.forEach(element =>{
-       return GenerarLista(element);
-   });
-    
+  
+
+for (let i = respuesta.length - 1; i >= 0; i--) {
+   GenerarLista(respuesta[i]);
+}
+  
   })
   }
 
@@ -91,15 +92,42 @@ fetch(ListaCarpetas)
     iframe.src = link;
    // Seleccionar el contenedor por su ID
    let container = document.querySelector('#listaContainer');
-   // Crear un elemento <p>
+// Ordenar y mostrar la lista ordenada
+   
+   // Crear un elemento <li>
    let li = document.createElement('li');
-   // Asignar el contenido al <p>
-   li.textContent = contenido.title;
-   // Agregar el <p> al contenedor
-   return container.appendChild(li);
- 
+   let a = document.createElement('a');
+   a.classList.add('capitulos');
+   a.href = link;
+   console.log(a.href);
+   
+   // Asignar el contenido al <li>
+   a.textContent = contenido.title;
+   // Agregar el <li> al contenedor
+   return container.appendChild(li),li.appendChild(a);
    }
 
 
 
 
+   //cambio de capitulo
+   // Obtener todos los elementos <a>
+   const listaContainer = document.querySelector('#listaContainer');
+const elementosA = document.querySelectorAll('.capitulos');
+
+// Obtener el iframe
+const iframe = document.querySelector('#reproductor');
+
+// Agregar evento de clic a cada elemento <a>
+elementosA.forEach(a => {
+    a.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevenir comportamiento por defecto del enlace (navegación)
+
+        // Obtener el valor del atributo href del enlace tocado
+        const href = this.getAttribute('href');
+
+        // Asignar el valor del href como src del iframe
+        iframe.src = href;
+        console.log(iframe.src);
+    });
+});
