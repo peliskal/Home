@@ -25,20 +25,26 @@
       imagenPelicula.alt = pelicula.nombre;
   
       const nombrePelicula = document.createElement('a');
-      nombrePelicula.href = "Api/mostrar.html";
+      nombrePelicula.href = '/Api/mostrar.html';
       nombrePelicula.setAttribute('target', '_blank');
       nombrePelicula.textContent = pelicula.nombre;
       nombrePelicula.classList.add("elementoA");
-      nombrePelicula.onclick =  function() {
-       const nombrePasar = nombrePelicula.innerText; // Aquí define tu parámetro
-       if (nombrePasar) {
-        pasarNombre(nombrePasar);
-    } else {
-        console.log('El texto del enlace está vacío.');
-    }
-        console.log("variable global",nombrePasar);
-    };
-   
+      nombrePelicula.onclick =  function(event) {
+        event.preventDefault(); // Evita el comportamiento por defecto del enlace
+
+        // Captura el texto dentro del enlace y lo almacena en una variable global
+        const nombreGlobal = nombrePelicula.innerText.trim();
+        console.log("Valor capturado:", nombreGlobal);
+    
+        // Despacha un evento personalizado indicando que la variable global se ha actualizado
+        const eventNombreActualizado = new CustomEvent('nombreActualizado', { detail: nombreGlobal });
+        document.dispatchEvent(eventNombreActualizado);
+    
+        // Redirecciona a otro archivo HTML después de un breve retraso
+        setTimeout(() => {
+            window.location.href = 'mostrar.html';
+        }, 1000); // Cambia 1000 milisegundos (1 segundo) al valor deseado
+     };
   
       elementoPelicula.appendChild(imagenPelicula);
       elementoPelicula.appendChild(nombrePelicula);
@@ -51,15 +57,3 @@
   
   generarPeliculas();
   
-  function detectarNombre(nombre) {
-    console.log(nombre);
-   return nombre;
-    // Puedes agregar aquí cualquier lógica que desees ejecutar cuando se haga clic en el enlace
-  }
- 
-
-
-
-
-
-
