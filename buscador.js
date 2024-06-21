@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const botonBuscar = document.querySelector('.buscadorBtn');
     // Selecciona todos los elementos <span> dentro de <a> en el elemento <main>
     const enlaces = document.querySelectorAll('main a span');
-    console.log(enlaces); // Imprime en consola todos los elementos encontrados para verificar
 
     // Función para buscar series
     const buscarSeries = () => {

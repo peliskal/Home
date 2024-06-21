@@ -17,7 +17,6 @@
     peliculas.forEach(pelicula => {
       const elementoPelicula = document.createElement('div');
       elementoPelicula.classList.add('portadaPelicula');
-  
       const imagenPelicula = document.createElement('img');
       imagenPelicula.src = imagenCarga;//carga
       imagenPelicula.setAttribute('data-src', pelicula.imagen);//creo el atributo para las imagenes reales
@@ -33,6 +32,7 @@
       nombrePelicula.appendChild(imagenPelicula);
       nombrePelicula.appendChild(nombrePeliculaSpam);
       elementoPelicula.appendChild(nombrePelicula);
+
   
       elementoPeliculas.appendChild(elementoPelicula);
     });

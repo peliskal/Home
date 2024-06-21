@@ -99,8 +99,9 @@ display: flex;
 }
 
 .portadaPelicula > a img:hover{
-   transform: scale(1.3);
+   transform: scale(1.2);
 }
+
 .portadaPelicula a{
     width: 90%;
     margin: 0 0.1px;/*no borrar*/

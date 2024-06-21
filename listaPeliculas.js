@@ -158,7 +158,28 @@ window.listaPeliculas = [
     nombre: "Ben 10",
     url: "https://freeterabox.com/s/1EzPWqJRn8IwFvmq0j2occg", 
     imagen: "https://i.ibb.co/q7qqjQM/q-VBQyn-X6-J9gt-YWVwqbf-NKVe0k-YU.webp"
+  },
+  {
+    nombre: "El Show de Ren y Stimpy",
+    url: "https://freeterabox.com/s/1pVDCKL2X4UxV00CayJwx3A", 
+    imagen: "https://i.ibb.co/S0Bsq90/El-Show-de-Ren-y-Stimpy.webp"
+  },
+  {
+    nombre: "El Campamento de Lazlo",
+    url: "https://freeterabox.com/s/1h2pgE5iErv_iDFoS_Q3DPw", 
+    imagen: "https://i.ibb.co/YkcdH86/El-Campamento-de-Lazlo.webp"
+  },
+  {
+    nombre: "Piernas Locas Crane",
+    url: "https://freeterabox.com/s/1EIzRjYSaAMaBGqNucVmjUA", 
+    imagen: "https://i.ibb.co/fGvFd1b/Piernas-Locas-Crane.webp"
+  },
+  {
+    nombre: "La Hormiga Y El Oso Hormiguero ",
+    url: "https://freeterabox.com/s/1uLm9LR4EWZpRwL4u8RGDiA", 
+    imagen: "https://i.ibb.co/7tkyx1h/Hormiga-y-Oso-Hormiguero-2.webp"
   }
+  
 ];
 
 
