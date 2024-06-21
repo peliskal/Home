@@ -1,0 +1,152 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fondo:#353535;
+    --rojo:#ff0100;
+    --bordes:#000000;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header{
+  height: 60px;
+  background: var(--rojo);
+}
+main{
+    background: linear-gradient(130deg, var(--fondo), var(--bordes), var(--fondo));
+    padding: 2rem 0;
+    min-height: 1000px;
+}
+
+
+/*menu*/
+
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%; max-width: 1400px;
+    margin: auto; 
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.menu > a img{
+    width: 40%;
+    max-height: 130px;
+}
+
+.buscadorContainer{
+overflow: hidden;
+display: flex;
+}
+#buscador{
+    padding: .2rem;
+    padding-left: .5rem;
+    border: none; height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.buscadorBtn{
+    height: 30px;
+    margin-left: -5px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+.buscadorBtn > svg{
+    width: 80%;
+    height: 80%;
+   padding: .1rem;
+   color: #666666;
+}
+
+.oculto{
+    display: none;
+}
+
+.peliculas{
+    width: 95%; max-width: 1400px;
+    margin: 0 auto; padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.portadaPelicula{
+    flex-grow: 1;
+    width: 300px; max-width: 325px;
+    overflow: hidden;
+    border: 1px solid var(--bordes);
+    position: relative;
+    box-shadow: 5px 5px 5px rgb(177, 177, 177);
+}
+
+.portadaPelicula > a img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    aspect-ratio: 2/3;
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+}
+
+.portadaPelicula > a img:hover{
+   transform: scale(1.3);
+}
+.portadaPelicula a{
+    width: 90%;
+    margin: 0 0.1px;/*no borrar*/
+}
+.portadaPelicula a  span{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    transition: all .3s ease-in-out;
+}
+.portadaPelicula a:hover{
+    color: var(--rojo);
+}
+
+/*footer*/
+footer{
+    background:var(--rojo);
+    min-height: 350px;
+  position: relative;
+}
+
+.contienefoo{
+    position: absolute;
+    width: 100%; 
+    margin: auto;
+    text-align: center;
+   top: 40%;
+}
+
+.contienefoo > ol{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 1rem;
+    list-style: none;
+}
+.contienefoo > ol li{
+    flex-grow: 1;
+    flex-basis: 1;
+}
+.contienefoo > p{
+    margin: 5rem 0 0 0;
+    color: var(--bordes);
+}
