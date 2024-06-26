@@ -1,0 +1,33 @@
+*{
+    font-display:arial;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.txt{
+    width: 100%; max-width: 1240px;
+    min-height: 900px;
+    border-radius: 10px;
+    margin: auto; padding: 1.5rem;
+    text-align: left;
+    color: #000000;
+    background-color: #ffffff;
+}
+.txt > h1{
+    text-align: center;
+}
+.txt > p{
+    margin: 1rem 0;
+    line-height: 1.3rem;
+    font-family: 'poppins';
+    font-size: 1.065rem;
+}
+.txt p  > a{
+    color: var(--rojo);
+}
+.txt span{
+    font-weight: 600;
+}
