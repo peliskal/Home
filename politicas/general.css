@@ -16,56 +16,13 @@ header{
   height: 60px;
   background: var(--rojo);
 }
-/*menu*/
-.menu{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 90%; max-width: 1400px;
-    margin: auto; 
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-}
-.menu > a img{
-    width: 40%;
-    max-height: 130px;
-  
-}
-
-.buscadorContainer{
-overflow: hidden;
-display: flex;
-}
-#buscador{
-    padding: .2rem;
-    padding-left: .5rem;
-    border: none; height: 30px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-}
-.buscadorBtn{
-    height: 30px;
-    margin-left: -5px;
-    width: 50px;
-    border: none;
-    cursor: pointer;
-    border-radius: 0 5px 5px 0;
-}
-.buscadorBtn > svg{
-    width: 80%;
-    height: 80%;
-   padding: .1rem;
-   color: #666666;
-}
-
-
 /*main*/
 main{
     background: linear-gradient(130deg, var(--fondo), var(--bordes), var(--fondo));
     padding: 2rem 0;
     min-height: 1000px;
-    
     text-align: center;
+    
 }
 .txt{
     width: 100%; max-width: 1240px;
@@ -75,6 +32,7 @@ main{
     text-align: left;
     color: #000000;
     background-color: #ffffff;
+    margin:8rem auto;
 }
 .txt > h1{
     text-align: center;
