@@ -1,4 +1,4 @@
-window. listaPeliculas= [
+window.listaPeliculas= [
   {
     nombre: "wonka 2023",
     url: "https://freeterabox.com/s/1A5IgJAeKPA38RuWw0teDxg",
