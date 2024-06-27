@@ -39,7 +39,8 @@ function generarPeliculas() {
 
         const nombrePelicula = document.createElement('a');
         const nombrePeliculaSpan = document.createElement('span');
-        nombrePelicula.href = pelicula.url;
+        const valoPasar = pelicula.nombre;
+        nombrePelicula.href =`https://peliskal.com.ar/reproductor/reproducir.html?name=${valoPasar}`;
         nombrePelicula.setAttribute('target', '_blank');
         nombrePeliculaSpan.textContent = pelicula.nombre;
         nombrePelicula.classList.add("elementoA");
