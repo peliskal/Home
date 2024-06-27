@@ -101,11 +101,11 @@ function extraerUltimaParteDeUrls(lista) {
 
 
 // Llamar a la función para trabajar el array de forma para cambiar los links
-//
-const serieEncontrada = buscarSerie(miVariable);
+//miVariable
+const serieEncontrada = buscarSerie('Generador Rex');
 if (serieEncontrada) {
     const serieProcesada = extraerUltimaParteDeUrls(serieEncontrada);
     mostrarSeleccionado(serieProcesada);
 } else {
-    console.log("Serie no encontrada.");
+    alert("Serie no encontrada.");
 }

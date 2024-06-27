@@ -68,7 +68,7 @@
    
 }
 .temporada-titulo{
- 
+    cursor: pointer;
     background: #00a6ff3c;
     width: 100%;
     margin: auto;
@@ -112,4 +112,13 @@
 
 .videoplayer_html5_api{
   border: solid red;
+}
+
+
+li{
+    display: none;
+}
+/*togle*/
+.visible {
+    display: block;
 }
