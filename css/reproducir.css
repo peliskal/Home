@@ -4,7 +4,6 @@
 
 .main{
     width: 100%;
-    background-color: red;
     justify-content: center;
     padding: 8rem 0;
   text-align: center;
@@ -16,61 +15,77 @@
 /*container*/
 
 .container{
-    border: solid red;
     width: 98%; max-width: 1500px;
     margin: auto;
+    padding: .5rem;
+    background:  #ffffff06;
 }
 
  .datos{
-    border: solid orange;
     display: grid;
    display: flex;
+   justify-content: left;
     padding: 1rem;
+    background:#00000013;
+
+}
+@media screen and (max-width:550px) {
+    .datos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 }
 .portada{
-    border: solid rgba(255, 140, 0, 0.759);
+    border-radius: 5px;
     width: 250px;
 }
 .datos > div{
-    border: solid rgb(255, 255, 255);
+  background:transparent;
     align-items: center;
     padding: 1rem;
     margin: 1rem;
+    width: 100%; max-width: 1000px;
+    min-width: 200px;
 }
 .titulo{
-    border: solid rgb(0, 255, 47);
     width: 100%;
     text-align: left;
     margin: .5rem 0;
+    
 }
 .resumen{
-    border: solid rgb(4, 0, 255);
     text-align: left;
     padding: 1rem 0;
+   
+
 }
  /*dentro de datos lo de arriba*/
 
 .temporada{
-    border: solid rgb(153, 255, 0);
-    background-color: red;
    text-align: left;
    margin: .5rem 0;
    
 }
 .temporada-titulo{
-    background-color: rgb(0, 166, 255);
+ 
+    background: #00a6ff3c;
+    width: 100%;
+    margin: auto;
     text-align: center;
 }
 .temporada > li{
     margin: 1rem 0;
-    flex-grow: 1;
-    flex-basis: 200;
-    border-bottom: solid orange;
+    border-bottom:1px solid rgb(172, 172, 172);
     width: 80%;
     margin: .5rem auto;
+    list-style: none;
 }
 .capitulo{
-    
+    transition: all .3s ease-in-out;
+}
+.capitulo:hover{
+    color: red;
 }
 
 
@@ -79,10 +94,22 @@
 .visor{
     width: 98%; max-width: 1500px;
     margin: 1rem auto;
-    border: solid green;
+    border-radius: 10px;
 }
+
 .visor > iframe{
-    width: 100%; min-width: 350px; max-width: 1200px;
+    width: 100%; min-width: 280px; max-width: 1500px;
     aspect-ratio: 16/9;
-    border: solid red;
+    border-radius: 10px;
+}
+
+.viendo{
+    font-size: 2rem;
+    background: rgb(25, 24, 24);
+    padding: 1rem 0;
+    border-radius: 10px;
+}
+
+.videoplayer_html5_api{
+  border: solid red;
 }
