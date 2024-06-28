@@ -51,6 +51,7 @@ function mostrarSeleccionado(itemList) {
     // Crear un contenedor div para la serie o película
     const divContainer = document.createElement('div');
     divContainer.classList.add('container');
+    divContainer.style.backgroundImage = `url(${itemList.imagen})`;
     main.appendChild(divContainer);
     main.insertBefore(visor, divContainer.nextSibling);
 
@@ -116,7 +117,7 @@ function mostrarSeleccionado(itemList) {
         aPelicula.classList.add('verPelicula');
         aPelicula.href = itemList.url;
         aPelicula.textContent = "Ver Película";
-        divContainer.appendChild(aPelicula);
+        divDatos.appendChild(aPelicula);
     }
 }
 

@@ -1,5 +1,15 @@
-const series = window.listaSeries;
-const peliculas = window.listaPeliculas;
+let peliculas = [];
+let series = [];
+
+if (document.title === 'Peliskal-peliculas') {
+    peliculas = window.listaCrearPelicula;
+} else if (document.title === 'Peliskal-series') {
+    series = window.listaCompletaGeneral;
+} else {
+    peliculas = window.listaCrearPelicula;
+    series = window.listaCompletaGeneral;
+}
+
 let elegido = 0;
 
 function elegir(s, p) {

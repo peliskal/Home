@@ -7,9 +7,34 @@
     justify-content: center;
     padding: 8rem 0;
   text-align: center;
+  font-family: sans-serif;
+}
+body{
+    position: relative;
 }
 
+#shareButton{
+   color: rgb(255, 255, 255);
+    position: absolute;
+    height: 50px; width: auto;
+    top: 10px;
+    right: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    z-index: 5;
+    position: fixed;
+    transition: all .3s ease-in-out;
+}
+#shareButton:hover{
+    transform: scale(1.1);
+}
+#shareButton > svg{
+    width: 25px; height: auto;
 
+}
 
 
 /*container*/
@@ -18,16 +43,16 @@
     width: 98%; max-width: 1500px;
     min-height: 500px;
     height: auto; 
-    max-height: 1000px;
+    max-height: auto;
     margin: auto;
-    padding: .5rem;
-    background:  #ffffff06;
-    background-origin: solid red;
     position: relative;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 101%;
 }
 .verPelicula{
     cursor: pointer;
-    background: #00a6ff3c;
     padding: .5rem 0;
     margin:auto;
     text-align: center;
@@ -36,27 +61,25 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    background: #00000085;
 }
  .datos{
     display: grid;
    display: flex;
    width: 100%; max-width: 1500px;
+   min-height:500px;
+   height: auto;
    justify-content: left;
-    padding: 1rem;
-    background:#00000013;
+    background-color: #00000053;
+    border:none;
+    border-radius: 10px;
+}
 
-}
-@media screen and (max-width:550px) {
-    .datos{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-}
 .portada{
     border-radius: 5px;
     width: 250px; height: 370.75px;
     object-fit: cover;
+    padding: 1rem;
 }
 .datos > div{
   background:transparent;
@@ -67,6 +90,7 @@
     min-width: 200px;
 }
 .titulo{
+    padding: 1rem;
     width: 100%;
     text-align: left;
     margin: .5rem 0;
@@ -74,31 +98,32 @@
 }
 .resumen{
     text-align: left;
-    padding: 1rem 0;
+    padding: 1rem;
 }
  /*dentro de datos lo de arriba*/
 
 .temporada{
    text-align: left;
-   margin: .5rem 0;
-   
+   background: #00000085;
+   padding: .5rem .5rem;
 }
 .temporada-titulo{
     cursor: pointer;
-    background: #00a6ff3c;
     width: 100%;
-    margin: auto; padding: .5rem 0;
+     padding: .5rem 0;
     text-align: center;
+    background: #0000008e;
 }
 
 
 
 .temporada > li{
-    margin: 1rem 0;
     border-bottom:1px solid rgb(172, 172, 172);
     width: 80%;
-    margin: .5rem auto;
+    margin: .1rem auto;
+    padding: .5rem 1rem;
     list-style: none;
+
 }
 .capitulo{
     transition: all .3s ease-in-out;
@@ -120,11 +145,11 @@
     width: 100%; min-width: 280px; max-width: 1500px;
     aspect-ratio: 16/9;
     border-radius: 10px;
+    background-color: #000000;
 }
 
 .viendo{
-    font-size: 2rem;
-    background: rgb(25, 24, 24);
+    font-size: 1.5rem;
     padding: 1rem 0;
     border-radius: 10px;
 }
@@ -140,4 +165,33 @@ li{
 /*togle*/
 .visible {
     display: block;
+}
+
+
+/*tabletas*/
+@media screen and (max-width:1014px) {
+    .datos{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .titulo, .resumen{
+        width: 100%;
+    }
+    .container > div{
+        width: 100%;
+        padding:0 0 2rem 0;
+    }
+    .datos > div{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        background-size: 150% 101%;
+    }
 }

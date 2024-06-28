@@ -82,7 +82,7 @@ window.listaCompletaGeneral = [
         ]
     },
     {
-        nombre: "Corage el perro cobarde",
+        nombre: "Coraje el perro cobarde",
         sinopsis: "Courage, un perro temeroso, debe enfrentar sus miedos y salvar a su dueña Muriel de situaciones aterradoras y sobrenaturales.",
         imagen: "https://i.ibb.co/cN2VCLP/49e962246d8585744115e76547e5fb42.webp",
         temporadas: [
@@ -651,5 +651,204 @@ window.listaCrearPelicula = [
         sinopsis: "En 'Damsel', una mujer valiente se embarca en un viaje peligroso a través de un mundo dominado por hombres para salvar a su amado de un destino oscuro. Con una mezcla única de acción, intriga y romance, la película sigue los pasos de una heroína moderna que desafía las expectativas y enfrenta desafíos insuperables. A medida que avanza en su misión, descubre aliados inesperados y secretos enterrados que podrían cambiar el curso de su vida para siempre. 'Damsel' es una historia de coraje, amor y determinación en un mundo donde la valentía se encuentra en cada esquina.",
         imagen: "https://i.ibb.co/FzQXxsW/damsel-netflix-movie-poster.webp",
         url: "https://1024terabox.com/s/1VtmEV6XUotFo3jl6pK4MAg"
+    },
+    {
+        nombre: "Garfield Fuera de casa",
+        sinopsis: "En 'Garfield: Fuera de Casa', el perezoso gato naranja que todos conocemos y amamos se encuentra en una situación completamente nueva y desafiante. Cuando Garfield accidentalmente se escapa de la comodidad de su hogar, se ve obligado a enfrentar el mundo exterior. Lejos de su sofá favorito y sus interminables lasañas, Garfield descubre un mundo lleno de aventuras, desafíos y nuevos amigos. A lo largo de su viaje, Garfield aprenderá lecciones valiosas sobre la amistad, el valor y la importancia de la familia. Con su habitual sarcasmo y actitud despreocupada, Garfield se enfrentará a situaciones hilarantes y peligrosas. Esta nueva entrega promete ser una aventura emocionante y llena de risas para todos los seguidores de este icónico felino. Prepárate para ver a Garfield como nunca antes en 'Garfield: Fuera de Casa'...",
+        imagen: "https://i.ibb.co/30YFTXB/GAR-1400x2100-resultado.webp",
+        url: "https://1024terabox.com/s/12Zy2MnUiEpi_rbOfF16xIw"
+    },
+    {
+        nombre: "Bad Boys 2024",
+        sinopsis: "En 'Bad Boys 2024', los detectives Mike Lowrey y Marcus Burnett regresan para una nueva y explosiva aventura. Con su característico humor y estilo de acción, el dúo dinámico se enfrenta a una nueva amenaza que pone a prueba sus habilidades y su amistad. Esta vez, el peligro es mayor y las apuestas son más altas. A medida que investigan una red criminal internacional, descubrirán que nada es lo que parece. Con persecuciones de alta velocidad, tiroteos y momentos de tensión, 'Bad Boys 2024' lleva la franquicia a un nivel completamente nuevo. Los fanáticos pueden esperar el mismo humor irreverente y la química inigualable entre los protagonistas, pero con una trama más compleja y giros inesperados. 'Bad Boys 2024' promete ser una montaña rusa de emociones desde el principio hasta el fin...",
+        imagen: "https://i.ibb.co/SVRGf5H/Bad-Boys-4-1690882856-resultado.webp",
+        url: "https://1024terabox.com/s/1b79KQ5zC_42lR7iUu1On9g"
+    },
+    {
+        nombre: "Mi Villano Favorito 4 2024",
+        sinopsis: "En 'Mi Villano Favorito 4', Gru y sus adorables Minions están de vuelta para otra ronda de travesuras y aventuras. Esta vez, Gru enfrenta un nuevo desafío cuando un antiguo enemigo resurge, amenazando con destruir todo lo que ha construido. Con la ayuda de sus fieles Minions, sus hijas y su amada Lucy, Gru deberá idear un plan para salvar el día. La película promete risas, acción y momentos conmovedores mientras Gru lucha contra las fuerzas del mal. Los Minions, con su habitual torpeza y humor, aportan una buena dosis de diversión a la trama. 'Mi Villano Favorito 4' es una historia sobre la familia, la redención y el poder de la amistad, envuelta en un paquete de animación vibrante y entretenido. Prepárate para otra aventura emocionante con Gru y los Minions...",
+        imagen: "https://i.ibb.co/f9LVS5k/gru-4-mi-villano-favorito-resultado.webp",
+        url: "https://1024terabox.com/s/1xfPNH2u_Ge7rdvlTJ0VGmg"
+    },
+    {
+        nombre: "American Star 2024",
+        sinopsis: "En 'American Star 2024', seguimos la carrera meteórica de una joven cantante que sueña con convertirse en una superestrella. A través de esfuerzo, talento y determinación, nuestra protagonista navega por la industria de la música, enfrentando desafíos personales y profesionales. La película ofrece una mirada profunda a los altibajos de la fama, mostrando tanto el glamour como las dificultades que conlleva. Con actuaciones musicales impresionantes y una historia inspiradora, 'American Star 2024' es una celebración del talento y la perseverancia. A medida que nuestra heroína avanza en su carrera, deberá tomar decisiones difíciles y lidiar con la presión de ser una figura pública. La película es un testimonio del poder de los sueños y la importancia de mantenerse fiel a uno mismo",
+        imagen: "https://i.ibb.co/gT8f1QW/american-star-321472137-large-resultado.webp",
+        url: "https://1024terabox.com/s/1_FX9jNMAx7d8sHsCDtSNNw"
+    },
+    {
+        nombre: "Out of Darkness 2024",
+        sinopsis: "En 'Out of Darkness 2024', seguimos la historia de un grupo de sobrevivientes que luchan por encontrar esperanza en un mundo postapocalíptico. La trama se centra en su intento por reconstruir sus vidas y encontrar un propósito en medio de la devastación. A medida que exploran un mundo lleno de peligros y misterios, los personajes enfrentan sus propios demonios internos y los desafíos externos de un entorno hostil. La película combina elementos de suspenso, acción y drama, ofreciendo una mirada intensa y emotiva sobre la resiliencia humana. Con actuaciones poderosas y una narrativa cautivadora, 'Out of Darkness 2024' explora temas de redención, sacrificio y la búsqueda de luz en medio de la oscuridad. Cada decisión tomada por los personajes tiene un impacto significativo en su supervivencia y en el futuro del grupo. La película es un viaje emocional que mantiene al público al borde de su asiento desde el principio hasta el final. En 'Out of Darkness 2024', la esperanza se convierte en el hilo conductor que guía a los personajes a través de los desafíos más difíciles, demostrando que incluso en los momentos más oscuros, la luz siempre puede encontrarse…",
+        imagen: "https://i.ibb.co/48hSmSp/f-RT4-Gw-Qyg-R2ejg-Lpo8or-ADf-O0-Xm-resultado.webp",
+        url: "https://1024terabox.com/s/1W8oHwIJuMJ8bftKtRWfjGg"
+    },
+    {
+        nombre: "Duna Parte dos 2024",
+        sinopsis: "En 'Duna Parte dos 2024', continuamos la épica saga de Paul Atreides mientras enfrenta nuevos desafíos en el desierto de Arrakis. La historia sigue a Paul mientras lidera a los Fremen en una lucha por la supervivencia contra las fuerzas opresoras del imperio. Con una cinematografía impresionante y una narrativa profunda, la película explora temas de poder, destino y sacrificio. Paul debe confrontar sus propios miedos y tomar decisiones que podrían cambiar el destino del universo. 'Duna Parte dos 2024' ofrece una mezcla de acción, drama y misticismo, llevando al público a través de un viaje emocionante y visualmente deslumbrante. La relación de Paul con Chani y otros personajes clave se profundiza, revelando nuevas capas de complejidad y emoción. A medida que la tensión aumenta y los conflictos se intensifican, Paul debe encontrar la manera de equilibrar su destino con su humanidad. La película culmina en una serie de batallas épicas y revelaciones sorprendentes que mantienen al público cautivado. 'Duna Parte dos 2024' es una continuación digna de una de las sagas de ciencia ficción más icónicas, ofreciendo una experiencia cinematográfica inolvidable…",
+        imagen: "https://i.ibb.co/v3c8cXR/2403201-resultado.webp",
+        url: "https://1024terabox.com/s/1qDzxwY5TXOlxp_JKcHr_rw"
+    },
+    {
+        nombre: "Megamente contra el sindicato de Doom 2024",
+        sinopsis: "En 'Megamente contra el sindicato de Doom 2024', el brillante y malvado pero encantador Megamente se enfrenta a su mayor desafío hasta ahora. Un nuevo grupo de supervillanos, conocido como el Sindicato de Doom, amenaza con destruir la ciudad y apoderarse del mundo. Con la ayuda de su inseparable aliado, Minion, y algunos héroes inesperados, Megamente debe usar su ingenio y creatividad para derrotar a este formidable enemigo. La película combina humor, acción y emocionantes giros argumentales, ofreciendo una historia entretenida y llena de diversión. Los fanáticos del carismático villano convertido en héroe estarán encantados con su regreso a la pantalla grande. 'Megamente contra el sindicato de Doom 2024' destaca la importancia de la inteligencia, el coraje y la redención. A medida que la batalla se intensifica, Megamente descubre que ser un héroe no se trata solo de derrotar a los villanos, sino también de proteger a los inocentes y luchar por un bien mayor. La película culmina en un enfrentamiento épico que dejará al público emocionado y satisfecho. 'Megamente contra el sindicato de Doom 2024' es una aventura animada que deleitará a espectadores de todas las edades…",
+        imagen: "https://i.ibb.co/6b1TBhM/Megamind-Combo-Hero-KA-Digital-Vertical-2160x2880-resultado.webp",
+        url: "https://1024terabox.com/s/1GrfmFiCM82wm5C6XvpauyQ"
+    },
+    {
+        nombre: "Oppenheimer",
+        sinopsis: "En 'Oppenheimer', la fascinante historia del físico teórico J. Robert Oppenheimer cobra vida en la pantalla grande. La película explora la compleja vida y carrera de Oppenheimer, quien es ampliamente reconocido como el 'padre de la bomba atómica'. Desde sus primeros años como científico brillante hasta su papel crucial en el Proyecto Manhattan durante la Segunda Guerra Mundial, la narrativa se sumerge en los dilemas morales y las consecuencias de sus acciones. Con un guion poderoso y actuaciones destacadas, 'Oppenheimer' ofrece una visión profunda de los conflictos internos y externos que enfrentó el científico. La película no solo retrata los logros científicos de Oppenheimer, sino también las implicaciones éticas de la creación de un arma de destrucción masiva. A medida que la trama avanza, los espectadores son testigos de los momentos cruciales que definieron la carrera de Oppenheimer y su impacto en la historia mundial. 'Oppenheimer' es una reflexión sobre la responsabilidad, el poder y las consecuencias de la ciencia en tiempos de guerra. La película culmina con una mirada a las repercusiones a largo plazo de sus contribuciones científicas, dejando una impresión duradera sobre la naturaleza del progreso y la humanidad…",
+        imagen: "https://i.ibb.co/SwN3Jsr/oppenheimer-2023-04-resultado.webp",
+        url: "https://1024terabox.com/s/1evdI98vpnwdIFBTj8ixhOQ"
+    },
+    {
+        nombre: "Five Nights at Freddy's",
+        sinopsis: "En 'Five Nights at Freddy's', la atmósfera inquietante y el terror psicológico del famoso videojuego se trasladan a la pantalla grande. La película sigue a un guardia de seguridad nocturno que comienza a trabajar en Freddy Fazbear's Pizza, un restaurante familiar que alberga animatrónicos aparentemente inofensivos. Sin embargo, las cosas toman un giro siniestro cuando descubre que estos animatrónicos cobran vida durante la noche y tienen intenciones mortales. A medida que lucha por sobrevivir cada noche, el protagonista desentraña los oscuros secretos del restaurante y los eventos trágicos que llevaron a su maldición. Con una mezcla de suspenso, sustos repentinos y una atmósfera opresiva, 'Five Nights at Freddy's' captura la esencia del juego y ofrece una experiencia cinematográfica aterradora. La película profundiza en la historia de los personajes y el misterio que rodea a Freddy Fazbear's Pizza, manteniendo a los espectadores al borde de sus asientos. 'Five Nights at Freddy's' es una odisea de terror que explora los límites del miedo y la supervivencia en un entorno claustrofóbico y peligroso. La película promete ser un deleite escalofriante para los fanáticos del género…",
+        imagen: "https://i.ibb.co/rbCjZJF/fiveandfredy-resultado.webp",
+        url: "https://1024terabox.com/s/1RvbRaH__AIjG_KBUOYkFeA"
+    },
+    {
+        nombre: "La Princesa Encantada Por y Para Siempre",
+        sinopsis: "En 'La Princesa Encantada: Por y Para Siempre', la historia encantadora y mágica de la princesa Odette y el príncipe Derek llega a una conclusión emocionante. La película sigue a nuestros héroes mientras enfrentan su mayor desafío hasta la fecha: una poderosa maldición que amenaza con destruir su reino y separarlos para siempre. Con la ayuda de sus fieles amigos y su inquebrantable amor mutuo, Odette y Derek deben encontrar la manera de romper la maldición y restaurar la paz en su reino. La narrativa está llena de aventuras, momentos conmovedores y lecciones sobre la importancia del amor y la valentía. Con una animación hermosa y una banda sonora cautivadora, 'La Princesa Encantada: Por y Para Siempre' es una celebración del poder del amor verdadero y la fuerza de la amistad. A medida que la historia se desarrolla, los personajes enfrentan desafíos inesperados y revelaciones sorprendentes que ponen a prueba su determinación y su fe en el uno al otro. La película culmina en un clímax emocionante que asegura que el legado de Odette y Derek perdure para siempre. 'La Princesa Encantada: Por y Para Siempre' es un final digno para una saga querida por espectadores de todas las edades…",
+        imagen: "https://i.ibb.co/4d3xShf/La-princesa-encantada-260014478-large-resultado.webp",
+        url: "https://1024terabox.com/s/1KyIDOZgVcl7OMCCe_a-viw"
+    },
+    {
+        nombre: "Barbie",
+        sinopsis: "En 'Barbie', seguimos la vida de la icónica muñeca en una emocionante y moderna aventura cinematográfica. La película nos lleva a través de un viaje lleno de descubrimientos, crecimiento personal y diversión. Barbie, siempre la fashionista y aventurera, se encuentra enfrentando un mundo real donde sus habilidades y talentos son puestos a prueba. La historia comienza cuando Barbie, viviendo en el vibrante y estilizado mundo de Barbieland, se siente insatisfecha y curiosa sobre el mundo más allá de su perfecta burbuja. Decidida a encontrar su verdadero propósito, Barbie se embarca en una misión para descubrir quién es realmente, más allá de los roles y estereotipos que la han definido. En su viaje, se encuentra con personajes nuevos y diversos que la ayudan a ver la vida desde diferentes perspectivas y a entender el valor de la autenticidad y la amistad. Con una mezcla de humor, emoción y un toque de magia, 'Barbie' aborda temas relevantes como la autoaceptación y el empoderamiento. La película combina elementos visuales deslumbrantes con una narrativa envolvente, creando una experiencia cinematográfica que encantará tanto a los fanáticos de Barbie como a nuevas audiencias. A medida que Barbie navega por desafíos y aventuras, aprende que ser verdadera a sí misma es el mayor logro de todos. 'Barbie' es una celebración del espíritu indomable y la capacidad de cambiar el mundo, una historia inspiradora que reafirma que todos podemos ser héroes en nuestra propia vida. La película culmina con una reflexión sobre la importancia de ser uno mismo y la belleza de aceptar y celebrar nuestras diferencias. En 'Barbie', cada escena está llena de color, vida y lecciones importantes, haciendo de esta una película que dejará una impresión duradera...",
+        imagen: "https://i.ibb.co/mTxtZqy/barbye-resultado.webp",
+        url: "https://1024terabox.com/s/1xYKOvCwk4bUBRmOhfx57Rw"
+    },
+    {
+        nombre: "Los indestructibles 4",
+        sinopsis: "En 'Los indestructibles 4', el equipo de mercenarios más rudo y experimentado regresa para enfrentarse a su misión más peligrosa hasta la fecha. Con un elenco estelar compuesto por algunos de los más grandes nombres de la acción, esta entrega promete más explosiones, combates y emociones intensas que nunca. La trama sigue a Barney Ross y su grupo mientras se embarcan en una misión para detener a un traficante de armas internacional que amenaza con desatar el caos global. Con nuevos miembros que se unen al equipo y viejos amigos que regresan, los Indestructibles deben combinar su fuerza, habilidades y experiencia para derrotar a este enemigo formidable. La película está llena de secuencias de acción impresionantes, incluyendo persecuciones en alta velocidad, tiroteos y combates cuerpo a cuerpo. A medida que la misión se vuelve más peligrosa, los lazos de camaradería y lealtad entre los miembros del equipo se ponen a prueba, revelando la verdadera esencia de ser un Indestructible. Con giros inesperados y un ritmo vertiginoso, 'Los indestructibles 4' es una celebración del cine de acción clásico, llevando la adrenalina a niveles sin precedentes. La película culmina en un clímax explosivo que dejará al público al borde de sus asientos, reafirmando por qué este equipo es verdaderamente indestructible. En 'Los indestructibles 4', cada momento está cargado de emoción y energía, haciendo de esta una experiencia cinematográfica inolvidable para los amantes de la acción...",
+        imagen: "https://i.ibb.co/Y7PZgYC/Poster-Los-indestructibles-4-resultado.webp",
+        url: "https://1024terabox.com/s/1BMptHlhNtvAPBmq-zCu6EA"
+    },
+    {
+        nombre: "Suzume",
+        sinopsis: "En 'Suzume', seguimos la conmovedora historia de una joven que se embarca en un viaje de descubrimiento y autocomprensión. La trama se centra en Suzume, una adolescente que, tras una serie de eventos personales difíciles, decide aventurarse en un viaje por Japón para encontrar respuestas y sanar su corazón. Durante su viaje, Suzume se encuentra con diversos personajes, cada uno con sus propias historias y luchas, que la ayudan a ver la vida desde nuevas perspectivas. La película aborda temas de pérdida, amor y crecimiento personal, presentando un retrato sincero y emotivo de la experiencia humana. Con una dirección visualmente impresionante y una narrativa rica en emociones, 'Suzume' transporta al público a un mundo de belleza y reflexión. A medida que Suzume navega por sus desafíos internos y externos, aprende importantes lecciones sobre la resiliencia y la importancia de seguir adelante a pesar de las dificultades. La película culmina en una revelación poderosa que redefine el significado de hogar y pertenencia para Suzume, ofreciendo un final esperanzador y profundamente satisfactorio. 'Suzume' es una obra maestra cinematográfica que toca el corazón y el alma, dejando una huella duradera en los espectadores...",
+        imagen: "https://i.ibb.co/yhyqRBz/suzume-no-Tojimari-cartel-resultado.webp",
+        url: "https://1024terabox.com/s/1q9Nwe3_pnWygZksRhVJa6g"
+    },
+    {
+        nombre: "South Park Entrando al Panderverso",
+        sinopsis: "En 'South Park: Entrando al Panderverso', los irreverentes y provocadores habitantes de South Park se adentran en una nueva y alocada aventura que parodia el fenómeno de los multiversos. La trama sigue a los icónicos personajes de la serie animada mientras descubren la existencia de múltiples dimensiones paralelas. Con el característico humor oscuro y satírico de South Park, los personajes se encuentran con versiones alternativas de sí mismos y situaciones surrealistas que desafían las reglas de su mundo habitual. La película ofrece una crítica mordaz y cómica de la cultura pop y las tendencias actuales, todo mientras mantiene el espíritu anárquico y subversivo de la serie. A medida que los personajes navegan por el Panderverso, enfrentan desafíos hilarantes y peligros inusuales, llevando a momentos de pura comedia y caos. 'South Park: Entrando al Panderverso' es una experiencia cinematográfica única que deleitará a los fanáticos de la serie y atraerá a nuevos espectadores con su ingenio y audacia. La película culmina en un clímax explosivo y absurdo que sólo South Park podría ofrecer, asegurando que cada momento esté lleno de risas y sorpresas. En esta nueva aventura, South Park demuestra una vez más por qué sigue siendo un pilar de la comedia animada...",
+        imagen: "https://i.ibb.co/k5wDjhc/soutpark-Pandaverse-resultado.webp",
+        url: "https://1024terabox.com/s/1XXOpmWnrAD586TpScpKRgg"
+    },
+    {
+        nombre: "Amor en aguas turbulentas",
+        sinopsis: "En 'Amor en aguas turbulentas', una apasionante historia de amor y redención se desarrolla en medio de un contexto marino peligroso. La trama sigue a dos personas de mundos diferentes que se encuentran por casualidad y deben trabajar juntas para sobrevivir en circunstancias adversas. La protagonista, una joven bióloga marina, se embarca en una misión de investigación en alta mar, donde conoce a un exmarinero atormentado por su pasado. A medida que enfrentan tormentas, criaturas marinas y desafíos personales, su relación evoluciona de la desconfianza mutua a una conexión profunda. Con impresionantes escenas bajo el agua y una narrativa que entrelaza acción, romance y drama, la película explora temas de perdón, superación y el poder transformador del amor. 'Amor en aguas turbulentas' ofrece una visión íntima de los personajes mientras luchan por reconciliar sus pasados y encontrar esperanza en su futuro compartido. La película culmina en una serie de eventos emocionantes y decisivos que ponen a prueba su coraje y compromiso mutuo. 'Amor en aguas turbulentas' es una experiencia cinematográfica conmovedora que muestra cómo el amor puede florecer incluso en los momentos más oscuros...",
+        imagen: "https://i.ibb.co/HrFQFPK/Amor-en-aguas-turbulentas-234368579-large-resultado.webp",
+        url: "https://1024terabox.com/s/1IOwXgVeFlcbJjNj7M2aI0g"
+    },
+    {
+        nombre: "Luces En El Cielo",
+        sinopsis: "En 'Luces En El Cielo Latino', nos sumergimos en una historia que mezcla la ciencia ficción con la realidad cotidiana de una pequeña comunidad en América Latina. La película sigue a un grupo de amigos que, tras presenciar un extraño fenómeno de luces en el cielo, se embarcan en una aventura para descubrir la verdad detrás de estos eventos. Con un enfoque en la amistad, la lealtad y el coraje, los protagonistas deben enfrentar desafíos y peligros mientras desentrañan un misterio que podría cambiar sus vidas para siempre. A medida que se acercan a la verdad, descubren secretos que los obligan a cuestionar todo lo que sabían sobre su mundo y su lugar en él. Con efectos visuales impresionantes y una narrativa que mantiene el suspenso, 'Luces En El Cielo Latino' es una película que explora temas de descubrimiento y conexión humana. La trama se desarrolla con un ritmo emocionante y lleno de sorpresas, llevando a los espectadores a través de giros inesperados y momentos emotivos. 'Luces En El Cielo Latino' culmina en una revelación impactante que redefine la comprensión de los personajes sobre el universo y su papel en él. Esta película es una celebración del espíritu aventurero y la capacidad de los seres humanos para encontrar esperanza y significado en los momentos más oscuros...",
+        imagen: "https://i.ibb.co/DDwZmbB/luces-en-el-cielo-resultado.webp",
+        url: "https://1024terabox.com/s/1cjHfampiE0ZT0__w9z3N0Q"
+    },
+    {
+        nombre: "Warcraft: El primer encuentro de dos mundos",
+        sinopsis: "En 'Warcraft: El primer encuentro de dos mundos', nos sumergimos en el épico universo de Azeroth, donde la paz de los reinos humanos se ve amenazada por la invasión de una raza de orcos que huyen de su mundo moribundo. La trama sigue a los héroes de ambos lados del conflicto: el noble guerrero humano Anduin Lothar y el honorable jefe orco Durotan, quienes deben tomar decisiones difíciles para salvar a sus pueblos. Con espectaculares batallas, magia poderosa y criaturas fantásticas, la película explora temas de guerra, honor y sacrificio. A medida que los ejércitos se enfrentan, alianzas inesperadas se forman y enemigos descubren que tienen más en común de lo que pensaban. Con una dirección visualmente impresionante y una narrativa rica en emociones y acción, 'Warcraft: El primer encuentro de dos mundos' transporta a los espectadores a un mundo lleno de aventura y peligro. La película culmina en un enfrentamiento épico que determinará el destino de Azeroth y sus habitantes. 'Warcraft' es una obra maestra del cine de fantasía que dejará una huella duradera en los fanáticos del género...",
+        imagen: "https://i.ibb.co/XZxkDQP/warcraft-resultado.webp",
+        url: "https://1024terabox.com/s/1Ks0GUqhP13nojJ_KrnhJnA"
+    },
+    {
+        nombre: "El Hobbit: Un Viaje Inesperado",
+        sinopsis: "En 'El Hobbit: Un Viaje Inesperado', seguimos las aventuras de Bilbo Bolsón, un hobbit que vive una vida tranquila en la Comarca hasta que es arrastrado a una épica aventura por el mago Gandalf. Junto a trece enanos liderados por Thorin Escudo de Roble, Bilbo emprende un peligroso viaje para reclamar el reino perdido de Erebor de las garras del temible dragón Smaug. La película, basada en la obra maestra de J.R.R. Tolkien, está llena de magia, criaturas fantásticas y paisajes impresionantes. A medida que Bilbo y su compañía enfrentan trolls, goblins y otras amenazas, el hobbit descubre una valentía y un ingenio que nunca supo que tenía. Con una narrativa rica y detallada, 'El Hobbit: Un Viaje Inesperado' explora temas de heroísmo, amistad y el poder de la resistencia. La película culmina en una serie de eventos emocionantes que preparan el escenario para la épica saga que continúa. 'El Hobbit' es una celebración del espíritu aventurero y la capacidad de encontrar coraje en los lugares más inesperados...",
+        imagen: "https://i.ibb.co/MhgrbNJ/el-hobbit-un-viaje-inesperado-poster-264928-SPA-37-V-resultado.webp",
+        url: "https://1024terabox.com/s/1_nqnu5-UhohS_JdFt3Awlg"
+    },
+    {
+        nombre: "Mi cuñado es un vampiro",
+        sinopsis: "En 'Mi cuñado es un vampiro', una comedia de terror que mezcla el humor con el suspenso, seguimos a un joven que descubre que su cuñado recién llegado a la familia es en realidad un vampiro. La trama se centra en las hilarantes y aterradoras situaciones que surgen mientras intenta convencer a su familia de la verdad sin parecer loco. Con una mezcla de situaciones cómicas y momentos de verdadero horror, la película explora temas de confianza, lealtad y lo que significa realmente ser familia. A medida que el protagonista se enfrenta a la amenaza sobrenatural, debe encontrar formas creativas y humorísticas para proteger a sus seres queridos. 'Mi cuñado es un vampiro' ofrece una experiencia cinematográfica única que combina sustos y risas, culminando en un enfrentamiento final que pondrá a prueba el valor y la ingeniosidad del protagonista. Esta película es una divertida y emocionante aventura que atraerá tanto a los fanáticos del horror como de la comedia...",
+        imagen: "https://i.ibb.co/p1rXPr7/meu-cunhado-e-um-vampiro-174514379-large-resultado.webp",
+        url: "https://1024terabox.com/s/14RhP7IZ3KTfyB2MwRfTEsg"
+    },
+    {
+        nombre: "Dónde nos perdimos",
+        sinopsis: "En 'Dónde nos perdimos', una emotiva y profunda exploración de las relaciones humanas, seguimos a una pareja que intenta reconstruir su relación después de una separación dolorosa. La trama se centra en los desafíos y las revelaciones personales que surgen mientras ambos personajes enfrentan sus miedos, inseguridades y deseos no expresados. Con un enfoque íntimo y realista, la película aborda temas de amor, pérdida y redescubrimiento personal. A través de flashbacks y momentos de introspección, la historia revela cómo los protagonistas se perdieron a sí mismos y a su amor a lo largo del tiempo. 'Dónde nos perdimos' es una reflexión poderosa sobre la naturaleza del amor y la importancia de la comunicación y la comprensión mutua. La película culmina en un momento de verdad que redefine el futuro de la pareja, ofreciendo un final esperanzador y profundamente conmovedor. Esta película es una obra maestra emocional que resonará con cualquiera que haya experimentado los altibajos de una relación...",
+        imagen: "https://i.ibb.co/jrkjC1F/Daonde-nos-perdimos-520802203-large-resultado.webp",
+        url: "https://1024terabox.com/s/15ekTrC8JJyxRIEOHZWbVcw"
+    },
+    {
+        nombre: "The Marvels",
+        sinopsis: "En 'The Marvels', la tan esperada continuación del universo cinematográfico de Marvel, seguimos a la Capitana Marvel mientras une fuerzas con otras poderosas heroínas, incluyendo a Ms. Marvel y Monica Rambeau. La trama se desarrolla cuando una nueva amenaza intergaláctica emerge, poniendo en peligro la seguridad del universo. Con acción trepidante, efectos visuales impresionantes y una narrativa que explora la fuerza y el coraje de estas mujeres, la película destaca la importancia de la cooperación y la diversidad en la lucha contra el mal. A medida que enfrentan desafíos cada vez mayores, las heroínas descubren nuevas dimensiones de sus poderes y profundizan en sus conexiones personales. 'The Marvels' es una celebración del empoderamiento y la heroísmo, ofreciendo una aventura emocionante que encantará a los fanáticos de Marvel. La película culmina en una batalla épica que redefinirá el destino del universo y el lugar de estas heroínas en él. Con personajes complejos y una trama llena de giros y sorpresas, 'The Marvels' es una adición impresionante al legado de Marvel...",
+        imagen: "https://i.ibb.co/sgRKhQ7/the-marvels-resultado.webp",
+        url: "https://1024terabox.com/s/1BxTI8GjVivj4fosp5PiTOQ"
+    },
+    {
+        nombre: "South Park No Apto Para Menores",
+        sinopsis: "En 'South Park: No Apto Para Menores', la irreverente serie animada lleva su humor oscuro y satírico a nuevas alturas con una historia que promete ser tan provocativa como hilarante. La trama sigue a los icónicos personajes de South Park mientras se enfrentan a una serie de eventos absurdos y políticamente incorrectos que reflejan las controversias del mundo real. Con su característico estilo de animación y humor mordaz, la película aborda temas actuales y polémicos con una audacia que sólo South Park puede ofrecer. A medida que los personajes se sumergen en situaciones cada vez más extravagantes, la película ofrece una crítica mordaz de la sociedad moderna y sus hipocresías. 'South Park: No Apto Para Menores' es una experiencia cinematográfica única que desafiará y divertirá a los espectadores, culminando en un clímax que promete ser tan memorable como polémico. Esta película es una prueba más de por qué South Park sigue siendo un pilar de la comedia satírica...",
+        imagen: "https://i.ibb.co/PhWGD6P/no-apto-menores-resultado.webp",
+        url: "https://1024terabox.com/s/1BgqIt9coDJC4oY03mROItA"
+    },
+    {
+        nombre: "Kung fu panda 4",
+        sinopsis: "En 'Kung Fu Panda 4', el amado panda Po regresa para otra emocionante aventura llena de artes marciales, humor y lecciones de vida. La trama sigue a Po mientras enfrenta un nuevo y formidable enemigo que amenaza la paz del Valle de la Paz. Con la ayuda de sus amigos y maestros, los Cinco Furiosos, Po debe encontrar la fuerza interior y la sabiduría para derrotar esta nueva amenaza. La película combina impresionantes secuencias de acción con momentos emotivos y cómicos, explorando temas de autoaceptación, crecimiento personal y el poder del trabajo en equipo. A medida que Po entrena y lucha, descubre nuevas dimensiones de su propia capacidad y el verdadero significado de ser un Guerrero Dragón. 'Kung Fu Panda 4' es una celebración del espíritu indomable y la importancia de creer en uno mismo, ofreciendo una experiencia cinematográfica que encantará a audiencias de todas las edades. La película culmina en un enfrentamiento épico que pondrá a prueba todo lo que Po ha aprendido, asegurando que cada momento esté lleno de emoción y sorpresa...",
+        imagen: "https://i.ibb.co/hX8wkJc/kung-fu-panda-4-489354429-large-resultado.webp",
+        url: "https://1024terabox.com/s/15O2SDaklr10xX8feE3KUHQ"
+    },
+    {
+        nombre: "A través de tu mirada",
+        sinopsis: "En 'A través de tu mirada', una historia romántica y conmovedora, seguimos la vida de dos almas gemelas que se encuentran y se enamoran a pesar de las adversidades. La trama se centra en un hombre y una mujer de diferentes orígenes y experiencias que, a través de una serie de encuentros casuales, desarrollan una conexión profunda y transformadora. Con un enfoque en la belleza de los momentos cotidianos y la importancia de la comprensión y la empatía, la película explora temas de amor, pérdida y redescubrimiento. A medida que los protagonistas enfrentan desafíos personales y externos, su relación se fortalece y evoluciona, revelando la verdadera naturaleza del amor incondicional. 'A través de tu mirada' es una celebración del poder del amor para sanar y transformar, ofreciendo una narrativa que toca el corazón y el alma de los espectadores. La película culmina en un final esperanzador que reafirma la importancia de seguir el corazón y encontrar belleza en cada momento. Esta película es una obra maestra emocional que resonará con cualquiera que haya experimentado el amor verdadero...",
+        imagen: "https://i.ibb.co/khcc66r/a-traves-de-tu-mirada-resultado.webp",
+        url: "https://1024terabox.com/s/1malInq7_Pft_u6bdPkyMRA"
+    },
+    {
+        nombre: "60 minutos",
+        sinopsis: "En '60 minutos', un thriller de alta tensión, seguimos la historia de un hombre que debe resolver un complejo enigma dentro de una hora para salvar a su familia. La trama se desarrolla a un ritmo vertiginoso, con cada minuto que pasa aumentando la presión y la urgencia. El protagonista, un exagente de seguridad, es arrastrado a un juego mortal cuando un desconocido lo contacta y lo obliga a completar una serie de tareas peligrosas y moralmente ambiguas. Con el tiempo en su contra, debe usar toda su astucia y habilidades para desentrañar el misterio y descubrir la identidad de su torturador antes de que sea demasiado tarde. '60 minutos' es una película llena de giros inesperados, suspense y acción, explorando temas de moralidad, sacrificio y la naturaleza del poder. La película culmina en un clímax explosivo que desafía las expectativas y deja a los espectadores al borde de sus asientos. '60 minutos' es una experiencia cinematográfica intensa y emocionante que mantiene a la audiencia en vilo de principio a fin...",
+        imagen: "https://i.ibb.co/72Y9jMg/60minutos-resultado.webp",
+        url: "https://1024terabox.com/s/1km4ym2-rOzPbSsqcCI23Gw"
+    },
+    {
+        nombre: "Juego de roles",
+        sinopsis: "En 'Juego de roles', una intrigante película de misterio y suspense, seguimos a un grupo de amigos que se reúnen para una noche de juegos que toma un giro oscuro e inesperado. La trama se centra en un juego de mesa que parece tener una vida propia, llevando a los jugadores a situaciones cada vez más peligrosas y reales. A medida que los límites entre el juego y la realidad se desvanecen, los amigos deben enfrentarse a sus miedos más profundos y a secretos enterrados desde hace mucho tiempo. Con una mezcla de tensión psicológica y giros sorprendentes, 'Juego de roles' explora temas de confianza, traición y la delgada línea entre la ficción y la realidad. La película culmina en una serie de revelaciones impactantes que redefinen todo lo que los personajes creían saber. 'Juego de roles' es una experiencia cinematográfica fascinante que mantiene a los espectadores adivinando hasta el último momento, ofreciendo una narrativa que desafía y deleita en igual medida...",
+        imagen: "https://i.ibb.co/X2m2jzj/role-play-270194298-mmed-resultado.webp",
+        url: "https://1024terabox.com/s/1rMK5b0_9NvNj7t1KHHHHVw"
+    },
+    {
+        nombre: "Baghead: Contacto con la muerte",
+        sinopsis: "En 'Baghead: Contacto con la muerte', una película de terror psicológico, seguimos a un grupo de amigos que se retiran a una cabaña aislada en el bosque para trabajar en un proyecto de película independiente. La trama toma un giro siniestro cuando descubren una antigua máscara con el poder de invocar a espíritus malignos. A medida que los amigos comienzan a desaparecer y a comportarse de manera extraña, se dan cuenta de que han despertado algo mucho más peligroso de lo que esperaban. Con una atmósfera tensa y llena de suspenso, la película explora temas de miedo, culpa y la naturaleza del mal. 'Baghead: Contacto con la muerte' combina sustos psicológicos con terror sobrenatural, llevando a los personajes y a la audiencia al límite. La película culmina en un enfrentamiento aterrador que pondrá a prueba la cordura y la resistencia de los sobrevivientes. 'Baghead' es una experiencia cinematográfica escalofriante que dejará a los espectadores con los nervios de punta...",
+        imagen: "https://i.ibb.co/jL7SD4w/baghead.webp",
+        url: "https://1024terabox.com/s/1hiPDWYTwS-0mbrlpkgkyiw"
+    },
+    {
+        nombre: "Diabolica Tentacion",
+        sinopsis: "En 'Diabolica Tentacion', una película de thriller y misterio, seguimos a una joven que se encuentra atrapada en un juego mortal de seducción y engaño. La trama se centra en la protagonista, que es atraída a una red de mentiras y peligros cuando conoce a un carismático extraño que resulta ser mucho más de lo que aparenta. A medida que se profundiza en su relación, se da cuenta de que está siendo manipulada y debe descubrir la verdad antes de que sea demasiado tarde. Con giros sorprendentes y una atmósfera de tensión constante, 'Diabolica Tentacion' explora temas de poder, control y la naturaleza del deseo. La película culmina en un clímax electrizante que redefine las expectativas de todos los involucrados, ofreciendo una narrativa intensa y absorbente que mantendrá a los espectadores al borde de sus asientos...",
+        imagen: "https://i.ibb.co/kyYd6DN/diabolica-Tentacion-resultado.webp",
+        url: "https://1024terabox.com/s/1iAeQrul4zADTsL1TZBadPw"
+    },
+    {
+        nombre: "Box",
+        sinopsis: "En 'Box', un drama psicológico con elementos de suspense, seguimos la historia de un hombre atrapado en una habitación sin salida y sin recordar cómo llegó allí. La trama se desarrolla mientras el protagonista intenta descubrir las pistas y resolver los enigmas que lo rodean para escapar de su confinamiento. A medida que se enfrenta a sus propios demonios internos y a las pruebas que le son impuestas, la película explora temas de identidad, memoria y la lucha por la supervivencia. Con una narrativa claustrofóbica y un ritmo tenso, 'Box' mantiene a la audiencia adivinando sobre la verdadera naturaleza del escenario y las intenciones detrás de su encarcelamiento. La película culmina en una revelación impactante que redefine todo lo que el protagonista y los espectadores creían saber. 'Box' es una experiencia cinematográfica intensa y reflexiva que desafía la percepción y la realidad...",
+        imagen: "https://i.ibb.co/rwj04b3/box-resultado.webp",
+        url: "https://1024terabox.com/s/1iU4kSPf33lxJ8g5uxUpYLw"
     }
 ];
+
+
+
+
+// Función para ordenar alfabéticamente por la propiedad 'nombre'
+function ordenarAlfabeticamente(array) {
+    array.sort((a, b) => {
+      const nombreA = a.nombre.toLowerCase(); // Convertir ambos nombres a minúsculas para comparación insensible a mayúsculas/minúsculas
+      const nombreB = b.nombre.toLowerCase();
+      
+      if (nombreA < nombreB) {
+        return -1;
+      } else if (nombreA > nombreB) {
+        return 1;
+      } else {
+        return 0; // Si los nombres son iguales, considerarlos iguales para la ordenación
+      }
+    });
+  }
+  
+  // Ordenar los arrays
+  ordenarAlfabeticamente(window.listaCompletaGeneral);
+  ordenarAlfabeticamente(window.listaCrearPelicula);
+
+ 
