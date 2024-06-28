@@ -16,14 +16,31 @@
 
 .container{
     width: 98%; max-width: 1500px;
+    min-height: 500px;
+    height: auto; 
+    max-height: 1000px;
     margin: auto;
     padding: .5rem;
     background:  #ffffff06;
+    background-origin: solid red;
+    position: relative;
 }
-
+.verPelicula{
+    cursor: pointer;
+    background: #00a6ff3c;
+    padding: .5rem 0;
+    margin:auto;
+    text-align: center;
+    min-width: 100%;
+    font-size: clamp(25px, 2vw, 40px);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
  .datos{
     display: grid;
    display: flex;
+   width: 100%; max-width: 1500px;
    justify-content: left;
     padding: 1rem;
     background:#00000013;
@@ -38,7 +55,8 @@
 }
 .portada{
     border-radius: 5px;
-    width: 250px;
+    width: 250px; height: 370.75px;
+    object-fit: cover;
 }
 .datos > div{
   background:transparent;
@@ -57,8 +75,6 @@
 .resumen{
     text-align: left;
     padding: 1rem 0;
-   
-
 }
  /*dentro de datos lo de arriba*/
 
@@ -71,9 +87,12 @@
     cursor: pointer;
     background: #00a6ff3c;
     width: 100%;
-    margin: auto;
+    margin: auto; padding: .5rem 0;
     text-align: center;
 }
+
+
+
 .temporada > li{
     margin: 1rem 0;
     border-bottom:1px solid rgb(172, 172, 172);

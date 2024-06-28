@@ -616,3 +616,40 @@ window.listaCompletaGeneral = [
         ]
     }
 ];
+
+
+
+
+//lista peliculas
+window.listaCrearPelicula = [
+    {
+        nombre: "wonka 2023",
+        sinopsis: "En 'Wonka 2023', seguimos la historia de un joven chocolatero cuyo destino cambia radicalmente al descubrir el secreto detrás del chocolate más delicioso del mundo. Inspirado por la magia y la misteriosa fábrica de chocolate, este cuento moderno nos lleva a través de un viaje lleno de dulzura y descubrimientos. El protagonista, Willy Wonka, es un genio incomprendido con un don extraordinario para crear golosinas que desafían la imaginación. Con la ayuda de sus amigos y su ingenio, Willy se embarca en una aventura para salvar su fábrica de los intrusos que buscan robar sus secretos más preciados. 'Wonka 2023' es una historia de crecimiento personal, amistad y el poder transformador del chocolate.",
+        imagen: "https://i.ibb.co/x2wPqLb/wonka.webp",
+        url: "https://1024terabox.com/s/1vZ4nNmga71ge00FEh25L3Q"
+    },
+    {
+        nombre: "Godzila x Kong: El nuevo imperio",
+        sinopsis: "En 'Godzilla x Kong: El nuevo imperio', los dos titanes legendarios se enfrentan en una batalla épica que sacude los cimientos del mundo. Ambientada en un futuro distópico donde criaturas gigantes dominan la Tierra, la humanidad lucha por su supervivencia mientras Godzilla y King Kong se enfrentan una vez más. Con efectos visuales impresionantes y una narrativa emocionante, la película explora temas de poder, redención y el impacto devastador de las guerras entre monstruos. Los personajes principales deben tomar decisiones difíciles mientras navegan por un paisaje postapocalíptico lleno de peligros y sorpresas. 'Godzilla x Kong: El nuevo imperio' promete acción sin límites y momentos que dejarán al público al borde de su asiento.",
+        imagen: "https://i.ibb.co/N3RrGRq/godzilla-x-kong.webp",
+        url: "https://1024terabox.com/s/16ApfvNANKGGB6iQFTE7JFQ"
+    },
+    {
+        nombre: "El reino del Planeta de los Simios",
+        sinopsis: "En un futuro distante, 'El reino del Planeta de los Simios' explora un mundo devastado por la guerra donde los simios inteligentes luchan por su supervivencia y dominio. La historia sigue a César, el líder carismático de los simios, mientras enfrenta una nueva amenaza que podría destruir todo lo que ha construido. Con imágenes sorprendentes y un guion emocionante, la película examina temas de identidad, conflicto y esperanza en un mundo postapocalíptico. Cada decisión de César y su tribu tiene consecuencias profundas en el futuro de la civilización simia y humana. 'El reino del Planeta de los Simios' es una epopeya cinematográfica que fusiona acción espectacular con profundas reflexiones sobre la naturaleza del poder y la supervivencia.",
+        imagen: "https://i.ibb.co/yhVRqMK/el-reino-del-planeta-de-los-simios-47778-c.webp",
+        url: "https://1024terabox.com/s/1Ur6OViSXX_xnSK9FO0q2Nw"
+    },
+    {
+        nombre: "Intensamente 2",
+        sinopsis: "En 'Intensamente 2', seguimos el viaje emocional de Riley, una adolescente que navega por los altibajos de la vida mientras sus emociones luchan por guiarla por el camino correcto. Con el regreso de Alegría, Tristeza, Ira, Miedo y Asco, Riley enfrenta desafíos nuevos y emocionantes que ponen a prueba su fortaleza emocional y su conexión con los demás. La película captura la complejidad de la mente humana y las emociones a través de un viaje lleno de risas, lágrimas y momentos inolvidables. 'Intensamente 2' es una celebración de la diversidad emocional y un recordatorio de que cada emoción tiene su lugar en la vida de una persona.",
+        imagen: "https://i.ibb.co/sFFJ3Fq/INTENSAMENTE-2.webp",
+        url: "https://1024terabox.com/s/19Hs4rWnQ7j3yMUlivCVu5Q"
+    },
+    {
+        nombre: "Damsel",
+        sinopsis: "En 'Damsel', una mujer valiente se embarca en un viaje peligroso a través de un mundo dominado por hombres para salvar a su amado de un destino oscuro. Con una mezcla única de acción, intriga y romance, la película sigue los pasos de una heroína moderna que desafía las expectativas y enfrenta desafíos insuperables. A medida que avanza en su misión, descubre aliados inesperados y secretos enterrados que podrían cambiar el curso de su vida para siempre. 'Damsel' es una historia de coraje, amor y determinación en un mundo donde la valentía se encuentra en cada esquina.",
+        imagen: "https://i.ibb.co/FzQXxsW/damsel-netflix-movie-poster.webp",
+        url: "https://1024terabox.com/s/1VtmEV6XUotFo3jl6pK4MAg"
+    }
+];

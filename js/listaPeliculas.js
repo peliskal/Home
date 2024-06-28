@@ -8,6 +8,21 @@ window.listaPeliculas= [
     nombre: "Godzila x Kong: El nuevo imperio",
     url: "https://freeterabox.com/s/1yo5HShYicFgGxVmNW0GSpA",
     imagen: "https://i.ibb.co/N3RrGRq/godzilla-x-kong.webp"
+  },
+  {
+    nombre: "El reino del Planeta de los Simios",
+    imagen:"https://i.ibb.co/yhVRqMK/el-reino-del-planeta-de-los-simios-47778-c.webp",
+    url:"https://1024terabox.com/s/1Ur6OViSXX_xnSK9FO0q2Nw"
+  },
+  {
+    nombre: "Intensamente 2",
+    imagen:"https://i.ibb.co/sFFJ3Fq/INTENSAMENTE-2.webp",
+    url:"https://1024terabox.com/s/19Hs4rWnQ7j3yMUlivCVu5Q"
+  },
+  {
+    nombre: "Damsel",
+    imagen:"https://i.ibb.co/FzQXxsW/damsel-netflix-movie-poster.webp",
+    url:"https://1024terabox.com/s/1VtmEV6XUotFo3jl6pK4MAg"
   }
 ]
  
