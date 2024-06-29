@@ -1,3 +1,6 @@
+const imagenCarga = 'https://i.ibb.co/zPTHfJD/gifcarga.webp';
+
+
 // Obtener la lista completa de series desde una variable global
 const listas = window.listaCompletaGeneral;
 // Obtener la lista completa de películas desde una variable global
