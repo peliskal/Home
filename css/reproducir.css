@@ -5,7 +5,7 @@
 .main{
     width: 100%;
     justify-content: center;
-    padding: 8rem 0;
+    padding: 85px 0;
   text-align: center;
   font-family: sans-serif;
 }
@@ -57,7 +57,7 @@ body{
     margin:auto;
     text-align: center;
     min-width: 100%;
-    font-size: clamp(25px, 2vw, 40px);
+    font-size: clamp(25px, 2vw, 35px);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -72,7 +72,7 @@ body{
    justify-content: left;
     background-color: #00000053;
     border:none;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .portada{
@@ -93,12 +93,13 @@ body{
     padding: 1rem;
     width: 100%;
     text-align: left;
-    margin: .5rem 0;
-    
+    margin: 0;
+    font-size: clamp(32px, 4vw, 60px);
 }
 .resumen{
     text-align: left;
     padding: 1rem;
+    font-size: clamp(16px, 4vw, 25px);
 }
  /*dentro de datos lo de arriba*/
 
@@ -106,13 +107,14 @@ body{
    text-align: left;
    background: #00000085;
    padding: .5rem .5rem;
+
 }
 .temporada-titulo{
     cursor: pointer;
     width: 100%;
      padding: .5rem 0;
     text-align: center;
-    background: #0000008e;
+    font-size: clamp(18.72px, 4vw, 30px);
 }
 
 
@@ -127,6 +129,7 @@ body{
 }
 .capitulo{
     transition: all .3s ease-in-out;
+    font-size: clamp(16px, 4vw, 18.72px);
 }
 .capitulo:hover{
     color: red;
@@ -152,11 +155,9 @@ body{
     font-size: 1.5rem;
     padding: 1rem 0;
     border-radius: 10px;
+    font-size: clamp(20px, 4vw, 30px);
 }
 
-.videoplayer_html5_api{
-  border: solid red;
-}
 
 
 li{
@@ -187,11 +188,17 @@ li{
         margin: 0;
         padding: 0;
     }
+    .main{
+        padding: 76px 0;
+    }
     
 }
 
 @media screen and (max-width:500px) {
     .container {
-        background-size: 150% 101%;
+        background-size: auto 100%;
     }
 }
+
+
+
