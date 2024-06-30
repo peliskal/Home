@@ -21,7 +21,7 @@
         agregarMeta('keywords', palabrasClave);
   
         // Agregar descripción (opcional)
-        const descripcion = 'Somos peliskal donde podes ver todas tus series, peliculas y dibujos favoritos de forma gratuita';
+        const descripcion = 'Disfruta de series, películas y dibujos animados gratis en Peliskal. ¡Tu portal de entretenimiento sin límites!';
         agregarMeta('description', descripcion);
   
         // Agregar enlace canonical
