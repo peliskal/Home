@@ -2,24 +2,42 @@ document.addEventListener('DOMContentLoaded', () => {
     const aLinks = document.querySelectorAll('.capitulo');
     const iframe = document.querySelector('iframe');
     const viendo = document.querySelector('.viendo');
-   // const temporada = document.querySelectorAll('.temporada-titulo');
     const container = document.querySelector('.container');
     const ol = container.querySelectorAll('.temporada');
     const verPelicula = container.querySelector('.verPelicula');
+    const anterior = document.querySelector('.anterior');
+    const siguiente = document.querySelector('.siguiente');
+    
+    // Variable global para saber el link actual
+    let currentChapterIndex = 0;
+
+    // Función para actualizar la visibilidad de los botones
+    function updateButtonVisibility() {
+        if (aLinks.length > 0) {
+            anterior.style.display = 'block';
+            siguiente.style.display = 'block';
+        } else {
+            anterior.style.display = 'none';
+            siguiente.style.display = 'none';
+        }
+    }
 
     // Añadir event listeners a los enlaces de capítulos
-    aLinks.forEach(link => {
+    aLinks.forEach((link, index) => {
         link.addEventListener('click', function(event) {
             event.preventDefault(); // Prevenir el comportamiento por defecto del enlace
             const href = this.getAttribute('href');
             const temporadaElement = this.closest('.temporada'); // Buscar el elemento con clase 'temporada' más cercano
             const temporada = temporadaElement.querySelector('.temporada-titulo').textContent; // Obtener el texto del título de la temporada
-            
+
+            currentChapterIndex = index; // Actualizar el índice del capítulo actual
+            viendoActual = href; // Actualizar el link actual
+
             iframe.currentTime = 0;
             viendo.textContent = `${temporada} ${link.textContent}`;
             
             // Actualizar el src del iframe con la nueva URL
-            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=480&autoplay=true&slid=`;
+            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
         });
     });
 
@@ -28,13 +46,14 @@ document.addEventListener('DOMContentLoaded', () => {
         verPelicula.addEventListener('click', function(event){
             event.preventDefault(); // Prevenir el comportamiento por defecto del enlace
             const href = this.getAttribute('href');
+            viendoActual = href; // Actualizar el link actual
             const titulo = document.querySelector('.titulo').textContent; // Obtener el texto del título de la temporada
             
             iframe.currentTime = 0;
             viendo.textContent = `${titulo}`;
             
             // Actualizar el src del iframe con la nueva URL
-            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=480&autoplay=true&slid=`;
+            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
         });
     }
 
@@ -54,6 +73,41 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
-});
 
+    // Función para actualizar el capítulo en el iframe
+    function updateChapter(index) {
+        if (index >= 0 && index < aLinks.length) {
+            const link = aLinks[index];
+            const href = link.getAttribute('href');
+            const temporadaElement = link.closest('.temporada'); // Buscar el elemento con clase 'temporada' más cercano
+            const temporada = temporadaElement.querySelector('.temporada-titulo').textContent; // Obtener el texto del título de la temporada
+
+            iframe.currentTime = 0;
+            viendo.textContent = `${temporada} ${link.textContent}`;
+
+            // Actualizar el src del iframe con la nueva URL
+            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
+
+            currentChapterIndex = index;
+            viendoActual = href;
+        }
+    }
+
+    // Event listener para el botón de capítulo anterior
+    anterior.addEventListener('click', () => {
+        if (currentChapterIndex > 0) {
+            updateChapter(currentChapterIndex - 1);
+        }
+    });
+
+    // Event listener para el botón de siguiente capítulo
+    siguiente.addEventListener('click', () => {
+        if (currentChapterIndex < aLinks.length - 1) {
+            updateChapter(currentChapterIndex + 1);
+        }
+    });
+
+    // Inicializar la visibilidad de los botones
+    updateButtonVisibility();
+});
 
