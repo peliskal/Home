@@ -238,7 +238,14 @@ window.listaCompletaGeneral = [
         temporadas: [
             {
                 temporada: 1,
-                episodios: ["https://freeterabox.com/s/1rNXpY8Li1iIQ2w4UXCHKFA"]
+                episodios: [
+                    "https://1024terabox.com/s/1tFv5ePSvNrHN_4KHHkA8mg",
+                    "https://1024terabox.com/s/1izG-Olu7yPZ0HdcxRVzJuQ",
+                    "https://1024terabox.com/s/1eWd_ICqEIE3cZiq-hlY8PQ",
+                    "https://1024terabox.com/s/1GJg-eB51uDmoMU8YYeURRg",
+                    "https://1024terabox.com/s/1iF4tpDXFnFzcU6fwzLYTbQ",
+                    "https://1024terabox.com/s/1cte9IjoFQ9nIdbaqJd_pLg"
+                  ]
             }
         ]
     },
