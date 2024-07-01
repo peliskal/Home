@@ -1086,7 +1086,7 @@ window.listaCrearPelicula = [
     {
         nombre: "Barbie",
         sinopsis: "Barbie descubre su verdadero propósito más allá de Barbieland, explorando la autenticidad y la amistad en una aventura llena de humor y magia. Una celebración del empoderamiento...",
-        imagen: "https://i.ibb.co/mTxtZqy/barbye-resultado.webp",
+        imagen: "https://i.ibb.co/CPFyQgM/BARBIE.webp",
         url: "https://1024terabox.com/s/1xYKOvCwk4bUBRmOhfx57Rw"
     },
     {
@@ -1196,9 +1196,89 @@ window.listaCrearPelicula = [
         sinopsis: "Atrapado sin salida, un hombre lucha por resolver enigmas y enfrentar sus demonios internos en esta intensa reflexión sobre identidad y supervivencia...",
         imagen: "https://i.ibb.co/rwj04b3/box-resultado.webp",
         url: "https://1024terabox.com/s/1iU4kSPf33lxJ8g5uxUpYLw"
+    },
+    {
+        nombre: "Dragonkeeper",
+        sinopsis: "En un mundo de fantasía, una joven y un dragón se embarcan en una aventura para salvar su reino, enfrentando grandes desafíos y peligros en su camino...",
+        imagen: "https://i.ibb.co/Z8sn5X9/dragon-resultado.webp",
+        url: "https://1024terabox.com/s/101obV6-OK-Eo-_gvDWvhbg"
+    },
+    {
+        nombre: "Mi Querida Oni",
+        sinopsis: "Una chica descubre que su mejor amiga es una oni, una criatura mitológica japonesa, y juntas deberán enfrentar a quienes quieren cazarlas...",
+        imagen: "https://i.ibb.co/mFk7qLP/mi-que-rida-oni-resultado.webp",
+        url: "https://1024terabox.com/s/12r4oKOdFBxfJneIbhFe-0g"
+    },
+    {
+        nombre: "Muere, Hart 2 Doble o nada",
+        sinopsis: "El detective Hart regresa para resolver un caso aún más peligroso, enfrentándose a enemigos nuevos y antiguos, en una misión donde la vida y la muerte están en juego...",
+        imagen: "https://i.ibb.co/M24qws8/die-hart-2-die-harter-786451503-mmed-resultado.webp",
+        url: "https://1024terabox.com/s/15cBhzKNkW8aJJqA1jxjhvA"
+    },
+    {
+        nombre: "South Park El Fin de la Obesidad",
+        sinopsis: "Los chicos de South Park idean un plan para acabar con la obesidad en su ciudad, desencadenando una serie de eventos hilarantes y caóticos...",
+        imagen: "https://i.ibb.co/25kD8Pt/South-Park-El-fin-de-la-obesidad-resultado.webp",
+        url: "https://1024terabox.com/s/11DD5IHMU_3DCvqg4sGgh1w"
+    },
+    {
+        nombre: "Orión Y La Oscuridad",
+        sinopsis: "Orión debe enfrentarse a sus miedos y a la oscuridad que amenaza con destruir su mundo, embarcándose en una épica aventura para salvarlo...",
+        imagen: "https://i.ibb.co/GHQZBGX/orion-and-the-dark-484302577-large-resultado.webp",
+        url: "https://1024terabox.com/s/1lNO-YBAcdzw-W-7qA8MrTA"
+    },
+    {
+        nombre: "Garra De Hierro",
+        sinopsis: "En una tierra dominada por la tiranía, un guerrero con una garra de hierro lucha por la libertad y la justicia, enfrentando a enemigos implacables...",
+        imagen: "https://i.ibb.co/7Qn616p/garra-de-hierro-resultado.webp",
+        url: "https://1024terabox.com/s/1QiGex6H7vxgCjiY4BWR7_Q"
+    },
+    {
+        nombre: "Kurayukaba",
+        sinopsis: "En una ciudad sumida en la oscuridad, un detective debe resolver un misterio que podría cambiar el destino de todos, enfrentando peligros en cada esquina...",
+        imagen: "https://i.ibb.co/kg6jzZd/kurayukaba-main-resultado.webp",
+        url: "https://1024terabox.com/s/16ObUlI0T32587UIS5vHz7w"
+    },
+    {
+        nombre: "Furiosa de la saga Mad Max",
+        sinopsis: "La historia de Furiosa, una guerrera en el mundo postapocalíptico de Mad Max, y su lucha por sobrevivir y liderar una revolución contra los opresores...",
+        imagen: "https://i.ibb.co/k3F4svW/furiosa-Madmax-resultado.webp",
+        url: "https://1024terabox.com/s/1gjpCzezr29FaiFWwsSXGTA"
+    },
+    {
+        nombre: "Heisei tanuki gassen pon poko (1994)",
+        sinopsis: "Un grupo de tanuki, criaturas mágicas, lucha para proteger su hogar de la destrucción por el avance de la urbanización humana, usando sus habilidades de transformación...",
+        imagen: "https://i.ibb.co/Sy4jqM4/pompoko-resultado.webp",
+        url: "https://1024terabox.com/s/1euprviQFYizJZKeX8WDESg"
+    },
+    {
+        nombre: "Hoho kekyo mi vecino yamada-kun 1999",
+        sinopsis: "Las hilarantes y conmovedoras aventuras de la familia Yamada mientras navegan por los altibajos de la vida cotidiana, con un toque único de humor japonés...",
+        imagen: "https://i.ibb.co/R2Md6ts/mis-vecinos-resultado.webp",
+        url: "https://1024terabox.com/s/1ySHi2yz999ysCSFPtD-iLA"
+    },
+    {
+        nombre: "Shrek 2001",
+        sinopsis: "Shrek, un ogro solitario, emprende una aventura para rescatar a la princesa Fiona y devolver la paz a su pantano, encontrando amigos y enemigos en el camino...",
+        imagen: "https://i.ibb.co/C5nnH5d/shrek-resultado.webp",
+        url: "https://1024terabox.com/s/1PpphmNeyM8mdKpq4hskkdw"
+    },
+    {
+        nombre: "Mad Max Fury Road (2015)",
+        sinopsis: "En un desierto postapocalíptico, Max y Furiosa unen fuerzas para escapar del tirano Immortan Joe, enfrentándose a peligros mortales en una intensa persecución...",
+        imagen: "https://i.ibb.co/bRzHwWC/mad-max-fury-road-12-resultado.webp",
+        url: "https://1024terabox.com/s/1bpNGlJOvfUaBDeUP90Rs1w"
+    },
+    {
+        nombre: "El chico y la garza",
+        sinopsis: "Un joven descubre una garza mágica que lo lleva a un mundo de fantasía, donde deberá enfrentar desafíos para encontrar su verdadero destino...",
+        imagen: "https://i.ibb.co/VMwKBvX/El-chico-y-la-garza-226243829-large-resultado.webp",
+        url: "https://1024terabox.com/s/1sm7HVqY-vZFkTYGkUafeOA"
     }
+
     
 ];
+
 
 
 
