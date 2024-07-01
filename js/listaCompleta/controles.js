@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Variable global para saber el link actual
     let currentChapterIndex = 0;
 
+    // Variable para rastrear la temporada actualmente abierta
+    let currentOpenSeason = null;
+
     // Añadir event listeners a los enlaces de capítulos
     aLinks.forEach((link, index) => {
         link.addEventListener('click', function(event) {
@@ -22,8 +25,20 @@ document.addEventListener('DOMContentLoaded', () => {
             currentChapterIndex = index; // Actualizar el índice del capítulo actual
             viendoActual = href; // Actualizar el link actual
 
-            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
+            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
             viendo.textContent = `${temporada} ${link.textContent}`;
+
+            // Cerrar la temporada actualmente abierta
+            if (currentOpenSeason) {
+                const openLiElements = currentOpenSeason.querySelectorAll('li');
+                openLiElements.forEach(li => li.classList.remove('visible'));
+            }
+
+            // Desplazar la vista al iframe del reproductor
+            iframe.scrollIntoView({ behavior: 'smooth' });
+
+            // Actualizar la temporada abierta actualmente
+            currentOpenSeason = null;
         });
     });
 
@@ -35,8 +50,11 @@ document.addEventListener('DOMContentLoaded', () => {
             viendoActual = href; // Actualizar el link actual
             const titulo = document.querySelector('.titulo').textContent; // Obtener el texto del título de la temporada
             
-            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
+            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
             viendo.textContent = `${titulo}`;
+
+            // Desplazar la vista al iframe del reproductor
+            iframe.scrollIntoView({ behavior: 'smooth' });
         });
     }
 
@@ -47,13 +65,18 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Agregar un evento de clic al <h3>
         h3.addEventListener('click', function() {
-            // Obtener todos los <li> dentro de este <ol>
-            const elementosLi = ol.querySelectorAll('li');
+            // Cerrar la temporada abierta anteriormente, si existe
+            if (currentOpenSeason && currentOpenSeason !== ol) {
+                const openLiElements = currentOpenSeason.querySelectorAll('li');
+                openLiElements.forEach(li => li.classList.remove('visible'));
+            }
 
-            // Iterar sobre cada <li> y hacer toggle para mostrar/ocultar
-            elementosLi.forEach(li => {
-                li.classList.toggle('visible');
-            });
+            // Alternar la visibilidad de los <li> en la temporada actual
+            const elementosLi = ol.querySelectorAll('li');
+            elementosLi.forEach(li => li.classList.toggle('visible'));
+
+            // Actualizar la temporada abierta actualmente
+            currentOpenSeason = ol.classList.contains('visible') ? null : ol;
         });
     });
 
@@ -65,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const temporadaElement = link.closest('.temporada'); // Buscar el elemento con clase 'temporada' más cercano
             const temporada = temporadaElement.querySelector('.temporada-titulo').textContent; // Obtener el texto del título de la temporada
 
-            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
+            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
             viendo.textContent = `${temporada} ${link.textContent}`;
 
             currentChapterIndex = index;

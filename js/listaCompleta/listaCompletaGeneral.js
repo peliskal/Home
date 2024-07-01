@@ -1021,7 +1021,7 @@ window.listaCrearPelicula = [
         "nombre": "Damsel",
         "sinopsis": "Una mujer valiente se embarca en un viaje peligroso para salvar a su amado en un mundo dominado por hombres.",
         "imagen": "https://i.ibb.co/FzQXxsW/damsel-netflix-movie-poster.webp",
-        "url": "https://1024terabox.com/s/1VtmEV6XUotFo3jl6pK4MAg"
+        "url": "https://1024terabox.com/s/1dgHdG4z63_cRIhCVuGjrlQ"
       },
       {
         "nombre": "Garfield Fuera de Casa",

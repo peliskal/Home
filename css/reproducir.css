@@ -14,7 +14,7 @@ body{
       background:#181818;
 }
 
-
+/*compartir*/
 #shareButton{
    color: rgb(255, 255, 255);
     position: absolute;
@@ -109,7 +109,8 @@ body{
    text-align: left;
    background: #00000085;
    padding: .5rem .5rem;
-
+   display: flex;
+   flex-wrap: wrap;
 }
 .temporada-titulo{
     cursor: pointer;
@@ -122,19 +123,49 @@ body{
 
 
 .temporada > li{
-    border-bottom:1px solid rgb(172, 172, 172);
-    width: 80%;
-    margin: .1rem auto;
-    padding: .5rem 1rem;
+   /* border-bottom:1px solid rgb(172, 172, 172);*/
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+ padding: .5rem 0;
     list-style: none;
-
+    
 }
+.temporada > li a{
+    padding: .5rem 0 0 0;
+    width: 200px;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   background: #000000;
+   position: relative;
+}
+.temporada > li a::after{ 
+    top: 50%;position: absolute;
+    content: ''; /* Contenido generado vacío */
+    display: inline-block; /* Mostrar como bloque en línea */
+    width: 0; /* Ancho inicial del triángulo */
+    height: 0; /* Alto inicial del triángulo */
+    margin-left: 5px; /* Margen izquierdo para separarlo del texto */
+    border-left: 10px solid #ffffff; /* Lado izquierdo del triángulo */
+    border-top: 7px solid transparent; /* Lado superior del triángulo */
+    border-bottom: 7px solid transparent; /* Lado inferior del triángulo */
+    border-radius: 2px; /* Bordes redondeados */
+    vertical-align: middle; /* Alinear verticalmente con el texto */
+   transition: all .3s ease-in-out;
+}
+.temporada > li a:hover::after{
+    transform: scale(2);
+}
+
 .capitulo{
     transition: all .3s ease-in-out;
     font-size: clamp(16px, 4vw, 18.72px);
 }
 .capitulo:hover{
     color: red;
+   
 }
 
 
@@ -186,6 +217,12 @@ body{
     cursor: pointer;
 }
 
+.anterior::before{
+    content: '\2190';
+}
+.siguiente::after{
+    content: '\2192';
+}
 
 
 li{
