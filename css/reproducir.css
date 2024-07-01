@@ -144,6 +144,7 @@ body{
     width: 98%; max-width: 1500px;
     margin: 1rem auto;
     border-radius: 10px;
+    background: #1e242c;
 }
 
 .visor > iframe{
@@ -151,6 +152,7 @@ body{
     aspect-ratio: 16/9;
     border-radius: 10px;
     background-color: #000000;
+    border: 5px solid #1e242c;
 }
 
 .viendo{
@@ -158,6 +160,30 @@ body{
     padding: 1rem 0;
     border-radius: 10px;
     font-size: clamp(20px, 4vw, 30px);
+}
+
+
+
+
+.botones{
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background: #1e242c;
+    bottom: 50%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+ padding: 0 0 .5rem 0;
+}
+.anterior, .siguiente{
+    width: 140px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 
@@ -171,21 +197,6 @@ li{
 }
 
 
-
-.botones{
-    margin:0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: .5rem 0;
-    justify-content: space-around;
-}
-.anterior, .siguiente{
-    width: 170px;
-    height: 40px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
 
 
 
