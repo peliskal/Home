@@ -11,17 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Variable global para saber el link actual
     let currentChapterIndex = 0;
 
-    // Función para actualizar la visibilidad de los botones
-    function updateButtonVisibility() {
-        if (aLinks.length > 0) {
-            anterior.style.display = 'block';
-            siguiente.style.display = 'block';
-        } else {
-            anterior.style.display = 'none';
-            siguiente.style.display = 'none';
-        }
-    }
-
     // Añadir event listeners a los enlaces de capítulos
     aLinks.forEach((link, index) => {
         link.addEventListener('click', function(event) {
@@ -33,11 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
             currentChapterIndex = index; // Actualizar el índice del capítulo actual
             viendoActual = href; // Actualizar el link actual
 
-            iframe.currentTime = 0;
-            viendo.textContent = `${temporada} ${link.textContent}`;
-            
-            // Actualizar el src del iframe con la nueva URL
             iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
+            viendo.textContent = `${temporada} ${link.textContent}`;
         });
     });
 
@@ -49,11 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
             viendoActual = href; // Actualizar el link actual
             const titulo = document.querySelector('.titulo').textContent; // Obtener el texto del título de la temporada
             
-            iframe.currentTime = 0;
-            viendo.textContent = `${titulo}`;
-            
-            // Actualizar el src del iframe con la nueva URL
             iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
+            viendo.textContent = `${titulo}`;
         });
     }
 
@@ -82,11 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const temporadaElement = link.closest('.temporada'); // Buscar el elemento con clase 'temporada' más cercano
             const temporada = temporadaElement.querySelector('.temporada-titulo').textContent; // Obtener el texto del título de la temporada
 
-            iframe.currentTime = 0;
-            viendo.textContent = `${temporada} ${link.textContent}`;
-
-            // Actualizar el src del iframe con la nueva URL
             iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&slid=`;
+            viendo.textContent = `${temporada} ${link.textContent}`;
 
             currentChapterIndex = index;
             viendoActual = href;
@@ -107,7 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Inicializar la visibilidad de los botones
-    updateButtonVisibility();
+    // Mostrar/ocultar botones según la cantidad de capítulos
+    if (aLinks.length === 0) {
+        anterior.style.display = 'none';
+        siguiente.style.display = 'none';
+    } else {
+        anterior.style.display = 'block';
+        siguiente.style.display = 'block';
+    }
 });
-
