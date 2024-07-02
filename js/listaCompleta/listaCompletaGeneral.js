@@ -168,6 +168,14 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1Kflm8P-OaX5EmSljVyv-zw"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
             }
         ]
     },
@@ -203,6 +211,26 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1FPbZVKDYasp8-tFgS9YlIg"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
+            },
+            {
+                temporada:5,
+                episodios:[]
+            },
+            {
+                temporada:6,
+                episodios:[]
             }
         ]
     },
@@ -228,6 +256,18 @@ window.listaCompletaGeneral = [
                     "https://1024terabox.com/s/14RvCAQLLBAhCB5L3qrLMvg",
                     "https://1024terabox.com/s/1KPmvOLV7DB3WlSNjWyUqJA"
                   ]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
             }
         ]
     },
@@ -244,9 +284,43 @@ window.listaCompletaGeneral = [
                     "https://1024terabox.com/s/1eWd_ICqEIE3cZiq-hlY8PQ",
                     "https://1024terabox.com/s/1GJg-eB51uDmoMU8YYeURRg",
                     "https://1024terabox.com/s/1iF4tpDXFnFzcU6fwzLYTbQ",
-                    "https://1024terabox.com/s/1cte9IjoFQ9nIdbaqJd_pLg"
+                    "https://1024terabox.com/s/1cte9IjoFQ9nIdbaqJd_pLg",
+                    "https://1024terabox.com/s/1Y6Hgwm2nU0eHk3wvu6ubBQ",
+                    "https://1024terabox.com/s/1OC7FB4Nqvd9lT7yyVp4dLg",
+                    "https://1024terabox.com/s/1RPZkkAA5Z-QV27g1AkUxTg",
+                    "https://1024terabox.com/s/1Kk1zbo19cSKrMCggVxuWLQ",
+                    "https://1024terabox.com/s/1yBmrbu3PY2HH6WJ2wq3DqA",
+                    "https://1024terabox.com/s/19_U1W_stf5NzzUnQaKl8wQ",
+                    "https://1024terabox.com/s/12EYvPCYeuKIiCS4wL6X2xg"
                   ]
+            },
+            {
+                temporada:2,
+                episodios:[
+                    "https://1024terabox.com/s/1ESkmygwi0fwpajhvvEIL1w",
+                    "https://1024terabox.com/s/14x1hhJkC-gZsbCLPKmFBPg",
+                    "https://1024terabox.com/s/1IdhpVwlrW0S_dUCsJUctcg",
+                    "https://1024terabox.com/s/1ZWmke4H2bSxy3lbpHRrPAg",
+                    "https://1024terabox.com/s/1ifY-8Aw3VRfxhu-LPRExZw",
+                    "https://1024terabox.com/s/1afweLDSJutsMOwCANpjdkA",
+                    "https://1024terabox.com/s/1EJ6QH2FD-nNRs7HKi2pzew",
+                    "https://1024terabox.com/s/1HLKzjzRqYQd4IvDq_3UFKQ",
+                    "https://1024terabox.com/s/1O8pD72MV6DsDtaaolSvNiQ",
+                    "https://1024terabox.com/s/15ruPNMrRdPFqP0GXswD6jQ",
+                    "https://1024terabox.com/s/1Rz1wVUhDc_EjvNFkrY02bA",
+                    "https://1024terabox.com/s/1QAEWZ1gK3qDWN9hQZRlxag",
+                    "https://1024terabox.com/s/1PaynH32iHIV8dxD1Xo1eIg"
+                  ]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
             }
+
         ]
     },
     {
@@ -268,6 +342,26 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1f2o8fZAYtCDCyKjq6R_Qbg"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
+            },
+            {
+                temporada:5,
+                episodios:[]
+            },
+            {
+                temporada:6,
+                episodios:[]
             }
         ]
     },
@@ -279,6 +373,22 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1OC0CFnVDMNFA8PjRbZyM6w"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
+            },
+            {
+                temporada:5,
+                episodios:[]
             }
         ]
     },
@@ -312,6 +422,14 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1bgZKqW_n0nQQM5aLHayZ4g"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
             }
         ]
     },
@@ -323,6 +441,10 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1XMuvTvTr7-OQVBxfxQIzwg"]
+            },
+            {
+                temporada:2,
+                episodios:[]
             }
         ]
     },
@@ -334,6 +456,30 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1iNdtAqHu8ZT8mNMDjJXs_Q"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
+            },
+            {
+                temporada:5,
+                episodios:[]
+            },
+            {
+                temporada:6,
+                episodios:[]
+            },
+            {
+                temporada:7,
+                episodios:[]
             }
         ]
     },
@@ -356,6 +502,14 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1E2Q1zOukKkXhecvS3xIAVQ"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
             }
         ]
     },
@@ -409,6 +563,22 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1mWi-VIdQnz5c9MHjEp40Bg"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
+            },
+            {
+                temporada:5,
+                episodios:[]
             }
         ]
     },
@@ -442,6 +612,22 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/164ZkK9P-YYLoIt5il2bYXQ"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
+            },
+            {
+                temporada:5,
+                episodios:[]
             }
         ]
     },
@@ -455,6 +641,18 @@ window.listaCompletaGeneral = [
                 episodios: [
                     "https://1024terabox.com/s/1rDBksUwmVpZlK8NxJYRnUg"
                   ]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
             }
         ]
     },
@@ -466,6 +664,14 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1K8uaKuUq-bM5TLDVbusl6A"]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
             }
         ]
     },
