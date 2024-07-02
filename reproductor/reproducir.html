@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://i.ibb.co/Rc4SHKm/20230224-041427.webp" type="image/x-webp">
-    <link rel="stylesheet" href="https://peliskal.com.ar/css/general.css">
+    <link rel="stylesheet" href="../css/generalReproducir.css">
     <link rel="stylesheet" href="https://peliskal.com.ar/css/menu.css">
     <link rel="stylesheet" href="../css/reproducir.css">
+    
     <script src="../js/listaCompleta/crearListas.js" type="module" defer></script>
     <script src="https://peliskal.com.ar/js/meta.js" defer></script>
     <script src="../js/listaCompleta/controles.js" defer></script>
-    <script src="../js/listaCompleta/listaCompletaGeneral.js" ></script>
+
+    <script src="../js/listaCompleta/seriesLista.js" ></script>
+    <script src="../js/listaCompleta/peliculasLista.js" ></script>
+
+    <script src="../js/listaCompleta/buscadorReproductor.js" defer></script>
+    
     <title>Peliskal</title>
 </head>
 <body>
     <header>
         <div class="menu">
            <a href="https://peliskal.com.ar/index.html"> <img src="https://i.ibb.co/Rc4SHKm/20230224-041427.webp" alt="LogoPeliskal"></a>
+           
+           <div class="buscadorContainer">
+           <input type="text" name="busacdor" id="buscador" placeholder="buscar">
+           <button class="buscadorBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+           </button>
              </div>
+             
             </div>
     </header>
     

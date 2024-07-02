@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const verPelicula = container.querySelector('.verPelicula');
     const anterior = document.querySelector('.anterior');
     const siguiente = document.querySelector('.siguiente');
+    const tituloSerie = document.querySelector('.titulo').textContent;
 
     // Variable global para saber el link actual
     let currentChapterIndex = 0;
@@ -14,33 +15,51 @@ document.addEventListener('DOMContentLoaded', () => {
     // Variable para rastrear la temporada actualmente abierta
     let currentOpenSeason = null;
 
-    // Función para guardar el último capítulo visto en localStorage
-    function saveLastWatched(href) {
-        localStorage.setItem('lastWatched', href);
+    // Función para guardar todos los capítulos vistos en localStorage
+    function saveLastWatched(href, temporada, capitulo) {
+        let watchedSeries = JSON.parse(localStorage.getItem('watchedSeries')) || {};
+        // Crear un array para la serie si no existe
+        if (!watchedSeries[tituloSerie]) {
+            watchedSeries[tituloSerie] = [];
+        }
+        // Verificar si ya existe el capítulo visto y actualizarlo, si no, agregar uno nuevo
+        const existingIndex = watchedSeries[tituloSerie].findIndex(chapter => chapter.href === href);
+        if (existingIndex > -1) {
+            watchedSeries[tituloSerie][existingIndex] = { href, temporada, capitulo };
+        } else {
+            watchedSeries[tituloSerie].push({ href, temporada, capitulo });
+        }
+        localStorage.setItem('watchedSeries', JSON.stringify(watchedSeries));
     }
 
-    // Función para obtener el último capítulo visto de localStorage
-    function getLastWatched() {
-        return localStorage.getItem('lastWatched');
+    // Función para obtener todos los capítulos vistos de localStorage
+    function getWatchedSeries() {
+        return JSON.parse(localStorage.getItem('watchedSeries')) || {};
     }
 
-    // Función para cargar el último capítulo visto en el iframe
-    function loadLastWatched() {
-        const lastWatched = getLastWatched();
-        if (lastWatched) {
-            const link = document.querySelector(`.capitulo[href="${lastWatched}"]`);
-            if (link) {
-                const temporadaElement = link.closest('.temporada');
-                const temporada = temporadaElement.querySelector('.temporada-titulo').textContent;
-                iframe.src = `https://terabox.com/sharing/embed?surl=${lastWatched}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
-                viendo.textContent = `${temporada} ${link.textContent}`;
-                currentChapterIndex = Array.from(aLinks).indexOf(link);
-            }
+    // Función para cargar todos los capítulos vistos de la serie actual
+    function loadWatchedSeries() {
+        const watchedSeries = getWatchedSeries();
+        if (watchedSeries[tituloSerie]) {
+            watchedSeries[tituloSerie].forEach(({ href, temporada, capitulo }) => {
+                const link = document.querySelector(`.capitulo[href="${href}"]`);
+                if (link) {
+                    const temporadaElement = link.closest('.temporada');
+                    if (temporadaElement) {
+                        const temporadaTitulo = temporadaElement.querySelector('.temporada-titulo').textContent;
+                        if (temporadaTitulo === temporada) {
+                            iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
+                            viendo.textContent = `${temporada} ${capitulo}`;
+                            currentChapterIndex = Array.from(aLinks).indexOf(link);
+                        }
+                    }
+                }
+            });
         }
     }
 
-    // Cargar el último capítulo visto al cargar la página
-    loadLastWatched();
+    // Cargar todos los capítulos vistos de la serie actual al cargar la página
+    loadWatchedSeries();
 
     // Añadir event listeners a los enlaces de capítulos
     aLinks.forEach((link, index) => {
@@ -51,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const temporada = temporadaElement.querySelector('.temporada-titulo').textContent; // Obtener el texto del título de la temporada
 
             currentChapterIndex = index; // Actualizar el índice del capítulo actual
-            saveLastWatched(href); // Guardar el capítulo actual como el último visto
+            saveLastWatched(href, temporada, link.textContent); // Guardar el capítulo actual como el último visto
 
             iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
             viendo.textContent = `${temporada} ${link.textContent}`;
@@ -75,11 +94,10 @@ document.addEventListener('DOMContentLoaded', () => {
         verPelicula.addEventListener('click', function(event){
             event.preventDefault(); // Prevenir el comportamiento por defecto del enlace
             const href = this.getAttribute('href');
-            saveLastWatched(href); // Guardar el capítulo actual como el último visto
-            const titulo = document.querySelector('.titulo').textContent; // Obtener el texto del título de la temporada
+            saveLastWatched(href, tituloSerie, ''); // Guardar la película actual como el último visto
             
             iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
-            viendo.textContent = `${titulo}`;
+            viendo.textContent = `${tituloSerie}`;
 
             // Desplazar la vista al iframe del reproductor
             iframe.scrollIntoView({ behavior: 'smooth' });
@@ -120,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
             viendo.textContent = `${temporada} ${link.textContent}`;
 
             currentChapterIndex = index;
-            saveLastWatched(href); // Guardar el capítulo actual como el último visto
+            saveLastWatched(href, temporada, link.textContent); // Guardar el capítulo actual como el último visto
         }
     }
 
@@ -147,4 +165,5 @@ document.addEventListener('DOMContentLoaded', () => {
         siguiente.style.display = 'block';
     }
 });
+
 

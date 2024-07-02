@@ -1196,12 +1196,6 @@ window.listaCompletaGeneral = [
 
 
 
-
-
-
-
-
-
 // Función para ordenar alfabéticamente por la propiedad 'nombre'
 function ordenarAlfabeticamente(array) {
     array.sort((a, b) => {
@@ -1220,6 +1214,3 @@ function ordenarAlfabeticamente(array) {
   
   // Ordenar los arrays
   ordenarAlfabeticamente(window.listaCompletaGeneral);
-  ordenarAlfabeticamente(window.listaCrearPelicula);
-
- 

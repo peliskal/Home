@@ -1,6 +1,7 @@
 *{
-    color: aliceblue;
+    
 }
+
 
 .main{
     width: 100%;
@@ -12,6 +13,7 @@
 body{
     position: relative;
       background:#181818;
+      color: aliceblue;
 }
 
 /*compartir*/
@@ -267,6 +269,74 @@ li{
         background-size: auto 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*buscador resultados*/
+.menu{
+    position: relative;
+}
+
+.resultados-container{
+    position: absolute;
+    top: 100%;
+    overflow-y: scroll;
+    width: 260px;
+    min-height: 200px;
+    height: auto;
+    max-height: 500px;
+    background: white;
+} 
+
+.portadaPelicula{
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 0;
+    
+}
+.capitulo{
+    margin: 0 .3rem;
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+    justify-content: left;
+    background: #00000078;
+}
+.capitulo > img{
+max-width: 50px;
+
+
+}
+
+.capitulo > span{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

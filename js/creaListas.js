@@ -45,13 +45,13 @@ function generarPeliculas() {
         imagenPelicula.src = imagenCarga;
         imagenPelicula.setAttribute('data-src', pelicula.imagen);
         imagenPelicula.classList.add('lazy-image');
-        imagenPelicula.alt = pelicula.nombre;
+        imagenPelicula.alt = "imagen de "+pelicula.nombre;
 
         const nombrePelicula = document.createElement('a');
         const nombrePeliculaSpan = document.createElement('span');
         const valoPasar = pelicula.nombre;
-        nombrePelicula.href =`../reproductor/reproducir.html?name=${valoPasar}`;
-        nombrePelicula.setAttribute('target', '_blank');
+        nombrePelicula.href =`https://peliskal.com.ar/reproductor/reproducir.html?name=${valoPasar}`;
+       // nombrePelicula.setAttribute('target', '_blank');
         nombrePeliculaSpan.textContent = pelicula.nombre;
         nombrePelicula.classList.add("elementoA");
         nombrePelicula.appendChild(imagenPelicula);
