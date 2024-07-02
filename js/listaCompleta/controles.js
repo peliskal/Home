@@ -7,12 +7,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const verPelicula = container.querySelector('.verPelicula');
     const anterior = document.querySelector('.anterior');
     const siguiente = document.querySelector('.siguiente');
-    
+
     // Variable global para saber el link actual
     let currentChapterIndex = 0;
 
     // Variable para rastrear la temporada actualmente abierta
     let currentOpenSeason = null;
+
+    // Función para guardar el último capítulo visto en localStorage
+    function saveLastWatched(href) {
+        localStorage.setItem('lastWatched', href);
+    }
+
+    // Función para obtener el último capítulo visto de localStorage
+    function getLastWatched() {
+        return localStorage.getItem('lastWatched');
+    }
+
+    // Función para cargar el último capítulo visto en el iframe
+    function loadLastWatched() {
+        const lastWatched = getLastWatched();
+        if (lastWatched) {
+            const link = document.querySelector(`.capitulo[href="${lastWatched}"]`);
+            if (link) {
+                const temporadaElement = link.closest('.temporada');
+                const temporada = temporadaElement.querySelector('.temporada-titulo').textContent;
+                iframe.src = `https://terabox.com/sharing/embed?surl=${lastWatched}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
+                viendo.textContent = `${temporada} ${link.textContent}`;
+                currentChapterIndex = Array.from(aLinks).indexOf(link);
+            }
+        }
+    }
+
+    // Cargar el último capítulo visto al cargar la página
+    loadLastWatched();
 
     // Añadir event listeners a los enlaces de capítulos
     aLinks.forEach((link, index) => {
@@ -23,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const temporada = temporadaElement.querySelector('.temporada-titulo').textContent; // Obtener el texto del título de la temporada
 
             currentChapterIndex = index; // Actualizar el índice del capítulo actual
-            viendoActual = href; // Actualizar el link actual
+            saveLastWatched(href); // Guardar el capítulo actual como el último visto
 
             iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
             viendo.textContent = `${temporada} ${link.textContent}`;
@@ -47,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         verPelicula.addEventListener('click', function(event){
             event.preventDefault(); // Prevenir el comportamiento por defecto del enlace
             const href = this.getAttribute('href');
-            viendoActual = href; // Actualizar el link actual
+            saveLastWatched(href); // Guardar el capítulo actual como el último visto
             const titulo = document.querySelector('.titulo').textContent; // Obtener el texto del título de la temporada
             
             iframe.src = `https://terabox.com/sharing/embed?surl=${href}&resolution=1080&autoplay=true&uk=4401246120582&slid=`;
@@ -92,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             viendo.textContent = `${temporada} ${link.textContent}`;
 
             currentChapterIndex = index;
-            viendoActual = href;
+            saveLastWatched(href); // Guardar el capítulo actual como el último visto
         }
     }
 
@@ -119,3 +147,4 @@ document.addEventListener('DOMContentLoaded', () => {
         siguiente.style.display = 'block';
     }
 });
+
