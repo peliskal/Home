@@ -28,7 +28,7 @@ main{
 
 .peliculas{
     width: 95%; max-width: 1400px;
-    margin: auto; padding: 1.5rem 0;
+    margin: auto; padding: 1.5rem .5rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -46,6 +46,18 @@ main{
     box-shadow: 5px 5px 5px rgb(177, 177, 177);
 }
 
+@media screen and (max-width:665px) {
+    .portadaPelicula{
+        min-width: 150px;
+        width: 45%;
+        
+    }
+    .peliculas{
+        gap: .5rem;
+        padding: 1rem .5rem;
+    }
+    
+}
 .portadaPelicula > a img{
     width: 100%;
     height: 100%; 

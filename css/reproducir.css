@@ -126,7 +126,7 @@ body{
 
 .temporada > li{
    /* border-bottom:1px solid rgb(172, 172, 172);*/
-    width: 200px;
+    width: 150px;
     margin: 0 auto;
     text-align: center;
  padding: .5rem 0;
@@ -135,11 +135,12 @@ body{
 }
 .temporada > li a{
     padding: .5rem 0 0 0;
-    width: 200px;
+    width: 150px;
     aspect-ratio: 16/9;
     display: flex;
     justify-content: center;
     margin: auto;
+    padding-bottom: 80px;
    background: #000000;
    position: relative;
 }
@@ -267,6 +268,7 @@ li{
 @media screen and (max-width:500px) {
     .container {
         background-size: auto 100%;
+        /*margin-top: 135px;*/
     }
 }
 

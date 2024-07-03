@@ -1191,6 +1191,58 @@ window.listaCompletaGeneral = [
                   ]
             }
         ]
+    },
+    {
+        nombre:"La casa de los dibujos",
+        sinopsis:"'La casa de los dibujos' es una serie animada para adultos que parodia los reality shows. Sigue a personajes de diferentes estilos de animación viviendo juntos, enfrentando situaciones absurdas y controversiales...",
+        imagen:"https://i.ibb.co/jTNccX4/Casa-de-los-dibujos-29-JPG-resultado.webp",
+        temporadas:[
+            {
+                temporada:1,
+                episodios:[
+                    "https://1024terabox.com/s/11m-gcIm4b4tgvN8ldCyLtw",
+                    "https://1024terabox.com/s/16t1O_RyCSJ1_qwj0z6ts4g",
+                    "https://1024terabox.com/s/1gyj4oaOzBMsZvzsblTI3ug",
+                    "https://1024terabox.com/s/13S-ErgL5Oqn0Jal9l3sFqg",
+                    "https://1024terabox.com/s/14U6MlNQRU5_-Ijx-cZ-bCA",
+                    "https://1024terabox.com/s/1a1AUxqh_bxwDUy1cAN0Vgw",
+                    "https://1024terabox.com/s/1GiZuPAzE0ScL8S7nCXMy1Q",
+                    "https://1024terabox.com/s/1jaB9VSeFqqf3Dz_wS9Ov8Q"
+                  ]
+            },
+            {
+                temporada:2,
+                episodios:[
+                    "https://1024terabox.com/s/1DRHv0D5kEVKH8d6Wq7e0hg",
+                    "https://1024terabox.com/s/1401LDgNIvUn2EdZU2zEZKQ",
+                    "https://1024terabox.com/s/1jhHS0A6Z0ydPsU9vd6lZcQ",
+                    "https://1024terabox.com/s/15_JpSlI2_PrQJW2DasghoA",
+                    "https://1024terabox.com/s/1wSyKou8u83Pfa7InT6CjAg",
+                    "https://1024terabox.com/s/13kLBshWxIoaz6xc1m5Qq9g",
+                    "https://1024terabox.com/s/1PExlqw9BmvOuUu6njGY1fA",
+                    "https://1024terabox.com/s/19pWR2Mmz7-C2TOpyZVQA7w",
+                    "https://1024terabox.com/s/1A_0iBEwBWbXgEotJsrFwkg",
+                    "https://1024terabox.com/s/1BOpsh5S4WEhpVKHbLLT8Cw",
+                    "https://1024terabox.com/s/1txkVwPDUx6bfthbwaOF26A",
+                    "https://1024terabox.com/s/1vaD7w0ucggH88U8eraF_mQ",
+                    "https://1024terabox.com/s/1Zka7fFAT_0d9E7R_0T7FHQ",
+                    "https://1024terabox.com/s/1NYwEECWvoN1E_aop3xkqqg"
+                  ]
+            },
+            {
+                temporada:3,
+                episodios:[
+                    "https://1024terabox.com/s/1VAOyOydSHMJzOCmGKmb8Wg",
+                    "https://1024terabox.com/s/1HUxTYbSwvx_Q6DILuMdScQ",
+                    "https://1024terabox.com/s/1cpZnKlMAeWuqAN2bb6cFVw",
+                    "https://1024terabox.com/s/1efb1ZPa94vYgxKj4DSd1bA",
+                    "https://1024terabox.com/s/1Tmvu4ij7Pge5NDA3xnaWUA",
+                    "https://1024terabox.com/s/1mzD_TtFI4frFo4puPpvJnQ",
+                    "https://1024terabox.com/s/1E-Tq-RasmacZn_BckWpmAQ",
+                    "https://1024terabox.com/s/1g6CpFet_-6pW4Xxgn6P25g"
+                  ]
+            }
+        ]
     }
 ];
 
