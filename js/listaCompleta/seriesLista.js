@@ -1248,139 +1248,26 @@ window.listaCompletaGeneral = [
         ]
     },
     {
-        nombre:"Bleach",
-        sinopsis:"'Bleach' sigue a Ichigo Kurosaki, un adolescente que obtiene poderes de Segador de Almas. Junto a sus amigos, lucha contra espíritus malignos y descubre secretos de su pasado y del mundo espiritual...",
-        imagen:"https://i.ibb.co/CzHpbfV/bleach-anime-resultado.webp",
+        nombre:"fog hill five elements",
+        sinopsis:"'Dama Fog Hill: Five Elements' sigue a Wenren Yu Xing, un joven guerrero que lucha por dominar los cinco elementos para salvar su tierra de fuerzas oscuras. Enfrenta enemigos poderosos y descubre secretos...",
+        imagen:"https://i.ibb.co/ryNpY8Z/5-elementos-resultado.webp",
         temporadas:[
             {
                 temporada:1,
                 episodios:[
-                    "https://terabox.com/s/1ZEahDq3dRVFP9hwKilegVw",
-                    "https://terabox.com/s/1EMbFCHqEH_bxlg2eucZjfw",
-                    "https://terabox.com/s/1i73dA_ZptFuWMQoUgGnNlw",
-                    "https://terabox.com/s/1E2GmBMbxs5RmaTGc4ZxgdQ",
-                    "https://terabox.com/s/1zCB4Eth6kaGVDVejLYPHqA",
-                    "https://terabox.com/s/1aqcFJXIcXKi3Xh1uIoN1jw",
-                    "https://terabox.com/s/14PSCSvG58kJHArzJ1ZZXzw",
-                    "https://terabox.com/s/1lueii-8LM87XfR0PzAavTQ",
-                    "https://terabox.com/s/13ErEC-Sf7v8k5q4zeguS-w",
-                    "https://terabox.com/s/17-77VhgJPGLcQMRWa62UIw",
-                    "https://terabox.com/s/1NvZuJG9XFUUw6yVBZq6gow",
-                    "https://terabox.com/s/1-j-Dzsi5ZrBCrZ4w0axkzQ",
-                    "https://terabox.com/s/1PC0m_u48ZBcU_gX179p9Xg",
-                    "https://terabox.com/s/11YNWyT4jzT1brb6jhDQnAg",
-                    "https://terabox.com/s/1CpUeu_RQd270YSBEpCaEvQ",
-                    "https://terabox.com/s/1_Df--LVbdedQxHinQXl_lw",
-                    "https://terabox.com/s/1oLWWVgQkedgBY_fsM3b5JA",
-                    "https://terabox.com/s/1Uv6bWcXTe6oNtL-2j9wu3Q",
-                    "https://terabox.com/s/1yGdFATK10EXRVeQMMvXS-A",
-                    "https://terabox.com/s/1f5rWdQavUMEjA9o3kxAB3A"
+                    "https://1024terabox.com/s/1MtbfimmU4qfJ3ED6aRM2qQ",
+                    "https://1024terabox.com/s/1G-aetWZs36YAJqN0OSoXPg",
+                    "https://1024terabox.com/s/1mN8YantvOdNOw_Hss1fqcQ"
                   ]
             },
             {
                 temporada:2,
                 episodios:[
-                    "https://terabox.com/s/1gjmkJ3wC7KZg0kQpby8XTQ",
-                    "https://terabox.com/s/1jX5pKkJxoAqAJ0NqSKccvg",
-                    "https://terabox.com/s/1-svhI4OtpSkyagJ2zhuCUQ",
-                    "https://terabox.com/s/14MvjRBk_Njp_SRHu_TZnyQ",
-                    "https://terabox.com/s/1Pz-42sybAXfBqn2OBKNT7A",
-                    "https://terabox.com/s/1PuykF3eZViZAFvrwAQbT3A",
-                    "https://terabox.com/s/1FurZaeScGopwVh8thtcHyA",
-                    "https://terabox.com/s/1fKn-aE9vg-PSMdMkBg-QSQ",
-                    "https://terabox.com/s/1ioCC3tJddpim9RbmJvD7lQ",
-                    "https://terabox.com/s/1i7wAyDJ6g4IFIxP8JelXMA",
-                    "https://terabox.com/s/1PEnLdgTfYedqQZJSMvRhSA",
-                    "https://terabox.com/s/1UgsEfvjuj-AOGKjm1GmtGQ",
-                    "https://terabox.com/s/1sprTKP2HH3DdVlnlXP8Kug",
-                    "https://terabox.com/s/1ynPgM5tevlpr3_pnP_1KEw",
-                    "https://terabox.com/s/1w6dFId7SmGsxKhCjQgmwGw",
-                    "https://terabox.com/s/1vt8g4lJFVEjOqdlfMGs3Dg",
-                    "https://terabox.com/s/1KCX-FLipNoPTyAiOyvLleQ",
-                    "https://terabox.com/s/1BE6KgfHOrgh9bf7pFrjbZw",
-                    "https://terabox.com/s/1LA98BENCd0o7AXFEgLCHBw",
-                    "https://terabox.com/s/1pSjwYB8o4F0gRG1poOpl8w",
-                    "https://terabox.com/s/1zc4qU6St-wPO-axrY1bbgg"
+                    "https://1024terabox.com/s/1ATU7_yifgef9dxnoliputQ",
+                    "https://1024terabox.com/s/1P1k96-qzL2-mjcu67uTwVA",
+                    "https://1024terabox.com/s/1IO6iADQkkjwsEN7QDYExsg",
+                    "https://1024terabox.com/s/19ugli2Fm6lirILyflwAVRw"
                   ]
-            },
-            {
-                temporada:3,
-                episodios:[
-                    "https://terabox.com/s/1-u5VM02cHXWqiBJO4jrj1w",
-                    "https://terabox.com/s/1QLisVdR1nF5plIqKZN-OMA",
-                    "https://terabox.com/s/1W5aYz7e4ghnoZI55ReVviA",
-                    "https://terabox.com/s/1fy8gfNKvEmYhJCOAfTpFgA",
-                    "https://terabox.com/s/1Rdloj7l5pJbgylwQIAEdQQ",
-                    "https://terabox.com/s/1pEiKC8Fo8weXPdLXfnetVA",
-                    "https://terabox.com/s/1y7QRuiBvkeBPM3uZZ6ZK5A",
-                    "https://terabox.com/s/1YPXHgB3xp0TApqAOxcgo2Q",
-                    "https://terabox.com/s/1K-8vGV7gYeLEuvuQW3emXQ",
-                    "https://terabox.com/s/14ywTHJJgpQW0D5EbZhvuWA",
-                    "https://terabox.com/s/1sfXZMBKcGtjJHo_AJXrHvw",
-                    "https://terabox.com/s/1_M1UmrtmRNjmNM_TRsK4VQ",
-                    "https://terabox.com/s/1_VebWsNCZS8f9bV3ZzS-vw",
-                    "https://terabox.com/s/1-FUfbQGVfyDruFA71xy2wg",
-                    "https://terabox.com/s/1c5jfVd-HV5UJNjy3gsVF-g",
-                    "https://terabox.com/s/1sxtVDuXsifDpVJOzahki0A",
-                    "https://terabox.com/s/1ezPgTjHLXzSycfFF0JPyFg",
-                    "https://terabox.com/s/1f8C3BWzsauUppxvCEPXyVA",
-                    "https://terabox.com/s/1fWodZQig8ZMExxuR-NXDzQ",
-                    "https://terabox.com/s/1lxpelF0xMLGHwsKnzfSLRw",
-                    "https://terabox.com/s/1zoPTGzRB7CZ2l4nGNMTpuw",
-                    "https://terabox.com/s/1sRkfN_8z59upH1bNxzE8yw"//capitulo 64
-                  ]
-            },
-            {
-                temporada:4,
-                episodios:[]
-            },
-            {
-                temporada:5,
-                episodios:[]
-            },
-            {
-                temporada:6,
-                episodios:[]
-            },
-            {
-                temporada:7,
-                episodios:[]
-            },
-            {
-                temporada:8,
-                episodios:[]
-            },
-            {
-                temporada:9,
-                episodios:[]
-            },
-            {
-                temporada:10,
-                episodios:[]
-            },
-            {
-                temporada:11,
-                episodios:[]
-            },
-            {
-                temporada:12,
-                episodios:[]
-            },
-            {
-                temporada:13,
-                episodios:[]
-            },
-            {
-                temporada:14,
-                episodios:[]
-            },
-            {
-                temporada:15,
-                episodios:[]
-            },
-            {
-                temporada:16,
-                episodios:[]
             }
         ]
     }
