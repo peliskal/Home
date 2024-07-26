@@ -82,7 +82,7 @@ window.listaCompletaGeneral = [
         ]
     },
     {
-        nombre: "Coraje el perro cobarde",
+        nombre: "Corage el perro cobarde",
         sinopsis: "Courage, un perro temeroso, debe enfrentar sus miedos y salvar a su dueña Muriel de situaciones aterradoras y sobrenaturales.",
         imagen: "https://i.ibb.co/cN2VCLP/49e962246d8585744115e76547e5fb42.webp",
         temporadas: [
@@ -168,14 +168,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1Kflm8P-OaX5EmSljVyv-zw"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
             }
         ]
     },
@@ -211,26 +203,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1FPbZVKDYasp8-tFgS9YlIg"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
-            },
-            {
-                temporada:5,
-                episodios:[]
-            },
-            {
-                temporada:6,
-                episodios:[]
             }
         ]
     },
@@ -241,33 +213,7 @@ window.listaCompletaGeneral = [
         temporadas: [
             {
                 temporada: 1,
-                episodios: [
-                    "https://1024terabox.com/s/1xerHg6riiDBratSrRZFOYQ",
-                    "https://1024terabox.com/s/1VpYb61HmPwZAt9ZxeGp46Q",
-                    "https://1024terabox.com/s/1Z_w4VY4TjZ5yp5cQ62bmPw",
-                    "https://1024terabox.com/s/1heRyaOV7bQTEWoXleJMPJw",
-                    "https://1024terabox.com/s/1vVD68oQpuZ2hfoOZAVYJpg",
-                    "https://1024terabox.com/s/1G-lKcZ0Cl1xPXgub3xwXgQ",
-                    "https://1024terabox.com/s/1KxCEHQp5o05G6xrkFOyKwg",
-                    "https://1024terabox.com/s/1QEdz7u6csxNtohsaGr_lpA",
-                    "https://1024terabox.com/s/1H1z6Fc-8i5NrrYq-619cNg",
-                    "https://1024terabox.com/s/1V7a14zpYGiiMgapidsUpyg",
-                    "https://1024terabox.com/s/1d4AHqBWqGBEaAr-I3hrsiw",
-                    "https://1024terabox.com/s/14RvCAQLLBAhCB5L3qrLMvg",
-                    "https://1024terabox.com/s/1KPmvOLV7DB3WlSNjWyUqJA"
-                  ]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
+                episodios: ["https://freeterabox.com/s/1uM5HVWqg24EqkpBeIooLow"]
             }
         ]
     },
@@ -278,49 +224,8 @@ window.listaCompletaGeneral = [
         temporadas: [
             {
                 temporada: 1,
-                episodios: [
-                    "https://1024terabox.com/s/1tFv5ePSvNrHN_4KHHkA8mg",
-                    "https://1024terabox.com/s/1izG-Olu7yPZ0HdcxRVzJuQ",
-                    "https://1024terabox.com/s/1eWd_ICqEIE3cZiq-hlY8PQ",
-                    "https://1024terabox.com/s/1GJg-eB51uDmoMU8YYeURRg",
-                    "https://1024terabox.com/s/1iF4tpDXFnFzcU6fwzLYTbQ",
-                    "https://1024terabox.com/s/1cte9IjoFQ9nIdbaqJd_pLg",
-                    "https://1024terabox.com/s/1Y6Hgwm2nU0eHk3wvu6ubBQ",
-                    "https://1024terabox.com/s/1OC7FB4Nqvd9lT7yyVp4dLg",
-                    "https://1024terabox.com/s/1RPZkkAA5Z-QV27g1AkUxTg",
-                    "https://1024terabox.com/s/1Kk1zbo19cSKrMCggVxuWLQ",
-                    "https://1024terabox.com/s/1yBmrbu3PY2HH6WJ2wq3DqA",
-                    "https://1024terabox.com/s/19_U1W_stf5NzzUnQaKl8wQ",
-                    "https://1024terabox.com/s/12EYvPCYeuKIiCS4wL6X2xg"
-                  ]
-            },
-            {
-                temporada:2,
-                episodios:[
-                    "https://1024terabox.com/s/1ESkmygwi0fwpajhvvEIL1w",
-                    "https://1024terabox.com/s/14x1hhJkC-gZsbCLPKmFBPg",
-                    "https://1024terabox.com/s/1IdhpVwlrW0S_dUCsJUctcg",
-                    "https://1024terabox.com/s/1ZWmke4H2bSxy3lbpHRrPAg",
-                    "https://1024terabox.com/s/1ifY-8Aw3VRfxhu-LPRExZw",
-                    "https://1024terabox.com/s/1afweLDSJutsMOwCANpjdkA",
-                    "https://1024terabox.com/s/1EJ6QH2FD-nNRs7HKi2pzew",
-                    "https://1024terabox.com/s/1HLKzjzRqYQd4IvDq_3UFKQ",
-                    "https://1024terabox.com/s/1O8pD72MV6DsDtaaolSvNiQ",
-                    "https://1024terabox.com/s/15ruPNMrRdPFqP0GXswD6jQ",
-                    "https://1024terabox.com/s/1Rz1wVUhDc_EjvNFkrY02bA",
-                    "https://1024terabox.com/s/1QAEWZ1gK3qDWN9hQZRlxag",
-                    "https://1024terabox.com/s/1PaynH32iHIV8dxD1Xo1eIg"
-                  ]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
+                episodios: ["https://freeterabox.com/s/1rNXpY8Li1iIQ2w4UXCHKFA"]
             }
-
         ]
     },
     {
@@ -342,26 +247,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1f2o8fZAYtCDCyKjq6R_Qbg"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
-            },
-            {
-                temporada:5,
-                episodios:[]
-            },
-            {
-                temporada:6,
-                episodios:[]
             }
         ]
     },
@@ -373,22 +258,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1OC0CFnVDMNFA8PjRbZyM6w"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
-            },
-            {
-                temporada:5,
-                episodios:[]
             }
         ]
     },
@@ -422,14 +291,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1bgZKqW_n0nQQM5aLHayZ4g"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
             }
         ]
     },
@@ -441,10 +302,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1XMuvTvTr7-OQVBxfxQIzwg"]
-            },
-            {
-                temporada:2,
-                episodios:[]
             }
         ]
     },
@@ -456,30 +313,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1iNdtAqHu8ZT8mNMDjJXs_Q"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
-            },
-            {
-                temporada:5,
-                episodios:[]
-            },
-            {
-                temporada:6,
-                episodios:[]
-            },
-            {
-                temporada:7,
-                episodios:[]
             }
         ]
     },
@@ -502,14 +335,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1E2Q1zOukKkXhecvS3xIAVQ"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
             }
         ]
     },
@@ -563,22 +388,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1mWi-VIdQnz5c9MHjEp40Bg"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
-            },
-            {
-                temporada:5,
-                episodios:[]
             }
         ]
     },
@@ -589,7 +398,42 @@ window.listaCompletaGeneral = [
         temporadas: [
             {
                 temporada: 1,
-                episodios: ["https://freeterabox.com/s/1LFUbSpIJ23CLVl-XLHmy7Q"]
+                episodios: [
+                    "https://1024terabox.com/s/1Lg-PYn6Q2uwUfARUfDSVmA",
+                    "https://1024terabox.com/s/1NaZDrj2tvFwKrPRFh4l_jA",
+                    "https://1024terabox.com/s/14wGV1ioQKLTgG6ziDKxdeQ",
+                    "https://1024terabox.com/s/14CMUUdK4KKJ33slftoQqJw",
+                    "https://1024terabox.com/s/1DZV8ldVGcVCHcNp8liHrmg",
+                    "https://1024terabox.com/s/1Z_-HlgiKsjjzPrmyjZ7K6g",
+                    "https://1024terabox.com/s/1Xg_9kaYat0MgpSJWrr8f6Q",
+                    "https://1024terabox.com/s/1JJV7j26wt9u7mESSsZmV4Q",
+                    "https://1024terabox.com/s/1dFCYnhy6u0l6B4zo5P6XBw",
+                    "https://1024terabox.com/s/1BNd5Gq5QCKoUQcr4vMyowA",
+                    "https://1024terabox.com/s/1ngFBvnPhoDKarABiFhEYGQ",
+                    "https://1024terabox.com/s/1bF2c3kShJGvT3jPAiR6CYQ",
+                    "https://1024terabox.com/s/1Q9ad8UM7oDZl8KWlUOKyfw",
+                    "https://1024terabox.com/s/1-33p5aIVeJB5Ve9KTh9vkA",
+                    "https://1024terabox.com/s/1D1-AS7x9jXDoFf0GIN01OQ",
+                    "https://1024terabox.com/s/1crHBecgpJbfoF-HVIbveag",
+                    "https://1024terabox.com/s/1Jvt64tAaUKrK01e7ELY19g",
+                    "https://1024terabox.com/s/1e2zTSN1mxUPJ8-29XZuLOA",
+                    "https://1024terabox.com/s/1ltt62TgDsz1GxaSlgoh6bg",
+                    "https://1024terabox.com/s/1ozKZ9yP6_1NIoLiCz3rgDg",
+                    "https://1024terabox.com/s/1wo7Jy-yFKX8M_f2xmhUp5w",
+                    "https://1024terabox.com/s/1xU-v_nqwEYh4tsYuYX4LcA",
+                    "https://1024terabox.com/s/1_o4M31Bp2vq1FfJCs6NXhQ",
+                    "https://1024terabox.com/s/14tWwRNQcouyXRiunB-kkSg",
+                    "https://1024terabox.com/s/1DvdIDmFHNSi5Rz3RBFrdHA",
+                    "https://1024terabox.com/s/1W7sbtc4fvhl3dqhm3My87w",
+                    "https://1024terabox.com/s/1vt4hxCJeozARmVtg0gMtsA",
+                    "https://1024terabox.com/s/1vWlwyFy5DxwLz0GeiG6cIg",
+                    "https://1024terabox.com/s/18pJXg-sw0nA0xOJqnI4YuA",
+                    "https://1024terabox.com/s/1VgOTUpCPadUgPYLaHHqzfg",
+                    "https://1024terabox.com/s/1T7whnRuQerr63Bs2zi8NIg",
+                    "https://1024terabox.com/s/1uLjqhyqxhL__uu6YCfpnng",
+                    "https://1024terabox.com/s/1Uwd_QDaUmI_XlEj61WRCdA",
+                    "https://1024terabox.com/s/1mtA-hrvx8Owqff6YuEQHtg"
+                  ]
             }
         ]
     },
@@ -612,22 +456,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/164ZkK9P-YYLoIt5il2bYXQ"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
-            },
-            {
-                temporada:5,
-                episodios:[]
             }
         ]
     },
@@ -638,21 +466,7 @@ window.listaCompletaGeneral = [
         temporadas: [
             {
                 temporada: 1,
-                episodios: [
-                    "https://1024terabox.com/s/1rDBksUwmVpZlK8NxJYRnUg"
-                  ]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
-            },
-            {
-                temporada:4,
-                episodios:[]
+                episodios: ["https://freeterabox.com/s/103Q-3GdnHkZ8kK4zb-Pxsw"]
             }
         ]
     },
@@ -664,14 +478,6 @@ window.listaCompletaGeneral = [
             {
                 temporada: 1,
                 episodios: ["https://freeterabox.com/s/1K8uaKuUq-bM5TLDVbusl6A"]
-            },
-            {
-                temporada:2,
-                episodios:[]
-            },
-            {
-                temporada:3,
-                episodios:[]
             }
         ]
     },
@@ -726,18 +532,7 @@ window.listaCompletaGeneral = [
         temporadas: [
             {
                 temporada: 1,
-                episodios: [
-                    "https://1024terabox.com/s/1ZvYWWd5NBP9cdevL6d7rIQ",
-                    "https://1024terabox.com/s/1Ni9jEC7Sk9UmceicNU3OrA",
-                    "https://1024terabox.com/s/1BS855sjaKPdIiMgZ6cNUvg",
-                    "https://1024terabox.com/s/1DbOaf08Me9JE8UnPQ6qEWA",
-                    "https://1024terabox.com/s/1SX_UnkLSkn-1QG3Pl1FEfw",
-                    "https://1024terabox.com/s/1bB7-drBNqUqTzlFHJPh-5g",
-                    "https://1024terabox.com/s/1FGWfO6v8xV2HLZcMYNaUrQ",
-                    "https://1024terabox.com/s/16sLxAek1m5lf9Z5SQUKbVg",
-                    "https://1024terabox.com/s/1xMMC-95U1FfybLv8kCLg7w",
-                    "https://1024terabox.com/s/1PcrXOLr_cQ8SWrgJGddOWg"
-                  ]
+                episodios: ["https://freeterabox.com/s/1d3zUWfK5ZrHE7k3xGUa5PQ"]
             }
         ]
     },
@@ -831,25 +626,7 @@ window.listaCompletaGeneral = [
         temporadas: [
             {
                 temporada: 1,
-                episodios: [
-                    "https://1024terabox.com/s/1kw02Un4SNywQmIAqGgrpAg",
-                    "https://1024terabox.com/s/1qMkZZdeFsa4zQ3O4M69edA",
-                    "https://1024terabox.com/s/1yfVbpL-D6JMrfnQp2eF_5g",
-                    "https://1024terabox.com/s/1kCoeEHBhsU6L8SfENu2rQQ",
-                    "https://1024terabox.com/s/1PgJjBWLufDNEzn4RP2CejQ",
-                    "https://1024terabox.com/s/1Pn7jJZxYv2ZzoK7yHlGpgw",
-                    "https://1024terabox.com/s/1obZcFy0cO4te5apqYEp6oA",
-                    "https://1024terabox.com/s/1GrPxdmb1hnh3bzLW9NVnWA",
-                    "https://1024terabox.com/s/1kwTkIrtodhT8z04uqIrv9A",
-                    "https://1024terabox.com/s/1QpgpH_D9yg81cO6uDd_eBA",
-                    "https://1024terabox.com/s/15gnEIVILKR83o2Z-21GEDQ",
-                    "https://1024terabox.com/s/1KlKHeNRnvglpdDofPcS69g",
-                    "https://1024terabox.com/s/14qAbSQzbO1uPxQrt3H7dMQ",
-                    "https://1024terabox.com/s/1ZsOEySYBA6GCe0_61QRI0w",
-                    "https://1024terabox.com/s/1j6rB5meVBzYhjVVudhrYIw",
-                    "https://1024terabox.com/s/11lDWIn6kCl_gTnwv4n3FJA",
-                    "https://1024terabox.com/s/1hXDirTmqrKHWjJ-jMe5IRQ"
-                  ]
+                episodios: ["https://freeterabox.com/s/1uLm9LR4EWZpRwL4u8RGDiA"]
             }
         ]
     },
@@ -872,354 +649,8 @@ window.listaCompletaGeneral = [
                   ]
             }
         ]
-    },
-    {
-        nombre:"The boys",
-        sinopsis:" Un grupo de vigilantes sin poderes intenta exponer y derrotar a superhéroes corruptos que abusan de sus habilidades en un mundo donde la fama y el poder lo son todo...",
-        imagen:"https://i.ibb.co/MRRwZ3q/the-boys-resultado.webp",
-        temporadas:[
-            {
-                temporada: 1,
-                episodios:[
-                    "https://1024terabox.com/s/16xiD4FMQTydBZ_fRFpJynQ",
-                    "https://1024terabox.com/s/1mkXcwPclL_oaKT4oZz-frQ",
-                    "https://1024terabox.com/s/164DE5b9evELtsR53P5PpwA",
-                    "https://1024terabox.com/s/10sjt3n2VNyd9jLIMEdZw4g",
-                    "https://1024terabox.com/s/1a_4i21TFfqqJI2iCwyPC_w",
-                    "https://1024terabox.com/s/1bxO3h-0T-4Gzs2sqbioWMw",
-                    "https://1024terabox.com/s/1paV9_mQZDcrX6bMrp32EEg",
-                    "https://1024terabox.com/s/1OzVukLHGiNt85rdJSXgctQ"
-                  ]
-            },
-            {
-                temporada: 2,
-                episodios:[
-                    "https://1024terabox.com/s/19Yab35Uj-47GD-4jSRSwNA",
-                    "https://1024terabox.com/s/1wk7-oTgq7KdRoQy5iS-tmg",
-                    "https://1024terabox.com/s/1SGwbdwrQvCYfepeF7uZ8ww",
-                    "https://1024terabox.com/s/1VTt2yMCucoXIJc9LPX6BKg",
-                    "https://1024terabox.com/s/191YI-O0nf_0wjvCssZ_B-w",
-                    "https://1024terabox.com/s/1-3RDO_CDuqpDlQyJDo0D_w",
-                    "https://1024terabox.com/s/1rFmxqpRlDC9C3m8aaD4Sfg",
-                    "https://1024terabox.com/s/1oBeF9NPxc3aKdCoDdnxR5Q"
-                  ]
-            },
-            {
-                temporada: 3,
-                episodios:[
-                    "https://1024terabox.com/s/1E6SegkF48kPDgZ62hE6LRA",
-                    "https://1024terabox.com/s/1LYtyC-R0E6iGC_kVGUvZgg",
-                    "https://1024terabox.com/s/1GIAgX8FLIEKR9ayDArNjmw",
-                    "https://1024terabox.com/s/116nzs0VAw45ydSH2jadvbg",
-                    "https://1024terabox.com/s/1fYTdXE85ArDceEYWQWW2oA",
-                    "https://1024terabox.com/s/1NvgDJKJCts17083tTS6J4A",
-                    "https://1024terabox.com/s/19aAaxiv3glE7a38ApNX7BA",
-                    "https://1024terabox.com/s/1NDXlNeuf2QJgvyCwjYm30g"
-                  ]
-            },
-            {
-                temporada: 4,
-                episodios:[]
-            }
-        ]
-    },
-    {
-        nombre:"The last of us",
-        sinopsis:"En un mundo post-apocalíptico, Joel, un contrabandista, debe proteger a Ellie, una niña inmune, mientras luchan contra humanos infectados y facciones violentas...",
-        imagen:"https://i.ibb.co/MPcbpWW/the-last-of-us-poster-2311.webp",
-        temporadas:[
-            {
-                temporada: 1,
-                episodios:[
-                    "https://1024terabox.com/s/1Uc25CPco77U8eadKlqYu8g",
-                    "https://1024terabox.com/s/1fE8PZ8mOfGPfkQLo6suJ9A",
-                    "https://1024terabox.com/s/1VP-ITBKZIOCk9kT49Wy4bg",
-                    "https://1024terabox.com/s/15jAbhJm3bLfgVo7zylc2bQ",
-                    "https://1024terabox.com/s/1RUvST7g4ID1pnrI5KoTrZA",
-                    "https://1024terabox.com/s/1yXrpkykDTIyAKQLsyrT7jw",
-                    "https://1024terabox.com/s/1MqLyJjQzR8PtlgtA-T_7nQ",
-                    "https://1024terabox.com/s/17AiA_pfQVXUn-HQCCSFIuA",
-                    "https://1024terabox.com/s/11bhJO55M865jB6imhppaaA"
-                  ]
-            }
-        ]
-    },
-    {
-        nombre:"Naruto",
-        sinopsis:"Naruto Uzumaki, un ninja con el espíritu del zorro demonio, lucha por ser reconocido y sueña con convertirse en Hokage, el líder de su aldea, enfrentando desafíos y enemigos poderosos...",
-        imagen:"https://i.ibb.co/C2SrRZk/naruto.webp",
-        temporadas:[
-            {
-                temporada:1,
-                episodios:[
-                    "https://1024terabox.com/s/1p7gaQNTs8EiwbkKoVSA57A",
-                    "https://1024terabox.com/s/1FlOg3PgKQIDo_6ZrSf5yvA",
-                    "https://1024terabox.com/s/1Gpt3FhF-M0A7CsNh_bEuwQ",
-                    "https://1024terabox.com/s/1-8qKN6mX6i_WEsElAoVwIg",
-                    "https://1024terabox.com/s/1fBui65lC_Pr79ImNP2NZGw",
-                    "https://1024terabox.com/s/1WMF0cDliy3CfUXFOVrVQPA",
-                    "https://1024terabox.com/s/10YlTmDIgNP8tjDXpQBpwHg",
-                    "https://1024terabox.com/s/1pNbNcM0uKAoREMjj7tIqlw",
-                    "https://1024terabox.com/s/1xClE_IeX2YAX4kuRdCtpTQ",
-                    "https://1024terabox.com/s/13PMjNOCVpXzXwpg_BinD0g",
-                    "https://1024terabox.com/s/1CFadpqj4JcjstVTlxfWVKA",
-                    "https://1024terabox.com/s/1OVcn0dz35K1guae7HUl0Zg",
-                    "https://1024terabox.com/s/1X79xoM8RSPDB3b_x4xEGvA",
-                    "https://1024terabox.com/s/1cGoJsv4x56slOcYDkkmy2A",
-                    "https://1024terabox.com/s/1k9y2EFl1USlBMRpgsQ80GA",
-                    "https://1024terabox.com/s/1_uuqvxfj1tSxK0ep_PNnyA",
-                    "https://1024terabox.com/s/1ERe7Wx9nUrtVWDr6J-chgA",
-                    "https://1024terabox.com/s/127cdg7YUshYoNLWBCZnrtw",
-                    "https://1024terabox.com/s/16cJ_gwDGbf8QFE87ZeW5YQ",
-                    "https://1024terabox.com/s/1gfv77ekjRXGM623dIIiP8Q",
-                    "https://1024terabox.com/s/1zFk-QZYZ3oeWauBEbVMpLg",
-                    "https://1024terabox.com/s/1e19Ifd3fwmjiMsXirW7BMg",
-                    "https://1024terabox.com/s/1Gj9NaUe2me3BKdt0x-XXjQ",
-                    "https://1024terabox.com/s/11jZqE563LTVV0XG02LYBwQ",
-                    "https://1024terabox.com/s/1X-lFV1UgtmQ3h8f6SveaOA",
-                    "https://1024terabox.com/s/1Tzssc-diuoDCygB-jjepnw",
-                    "https://1024terabox.com/s/1SrpqPgdKLVk1_8dhZdRaUQ",
-                    "https://1024terabox.com/s/1vFum6Lb4iYODgxa4JlNdRA",
-                    "https://1024terabox.com/s/1czYmFpdwEYwcQQ1pKMNGNw",
-                    "https://1024terabox.com/s/1NI_hqxWcSAn-5pCvUdX_RA",
-                    "https://1024terabox.com/s/1rEjVmIpUJyD-tqp7AkvQ0g",
-                    "https://1024terabox.com/s/1pqAFtKEAz-X38DinKQ889Q",
-                    "https://1024terabox.com/s/1FSo_WM-x4vrOYYxteKNUfw",
-                    "https://1024terabox.com/s/1DGQFbGOHTGsv32meZiPkmw",
-                    "https://1024terabox.com/s/1yc7uDZ0XopiR2dRV7kB5nQ",
-                    "https://1024terabox.com/s/12HsVEbAUcXgCzamUnBOkbA",
-                    "https://1024terabox.com/s/1QqPwuJ9PWoU-YWYWDwZF8g",
-                    "https://1024terabox.com/s/1VnQRL1PVJq-PydArpB-B6w",
-                    "https://1024terabox.com/s/1QD5YaUiDyXyPLmkvH8zL9Q",
-                    "https://1024terabox.com/s/14hVBZ9WJXKII-Pdm60VuzQ",
-                    "https://1024terabox.com/s/1lZnQA4dJocUwtMZfDWyX8w",
-                    "https://1024terabox.com/s/1lJzDwLxaYntP-2O7yR9tJQ",
-                    "https://1024terabox.com/s/1MmQOwSsKCLvEq5aZ2pOC0A",
-                    "https://1024terabox.com/s/1sbujiMAJpg6__GHbWKpGow",
-                    "https://1024terabox.com/s/1Niq8RW4Mzymc_VYRempixQ",
-                    "https://1024terabox.com/s/19i5U2G2vhJmPdLXVDsZLNg",
-                    "https://1024terabox.com/s/1Qex0zh0h0gHwUguxOutplw",
-                    "https://1024terabox.com/s/1Cfw5p_I1ToMqUePP36MoNA",
-                    "https://1024terabox.com/s/1lScxuNvKw2hh8XBuTX8u1A",
-                    "https://1024terabox.com/s/1laO_YYBo5u0K5y7dq1Jziw",
-                    "https://1024terabox.com/s/1C4kFften7X66v-6vgAgUxg",
-                    "https://1024terabox.com/s/1bD30h-oNQwACLEvTPjIyZg"
-                  ]
-            },
-            {
-                temporada:2,
-                episodios:[
-                    "https://1024terabox.com/s/1jgVoHH661HDZAAiUJQ1z4g",
-                    "https://1024terabox.com/s/1GkyZUJwIuTtHox0TX6ce5g",
-                    "https://1024terabox.com/s/10-mPVe6BZSxQFTiFMq7bWQ",
-                    "https://1024terabox.com/s/1EY3XziALuxnWjl79LLy7iQ",
-                    "https://1024terabox.com/s/1EY3XziALuxnWjl79LLy7iQ",
-                    "https://1024terabox.com/s/1YEoNPzVPrzR-PkXjmhi-JA",
-                    "https://1024terabox.com/s/1aEqnETS3jzbCXqhsGC4fZA",
-                    "https://1024terabox.com/s/1WAruXWXIJ6Q1sm-gMwExVg",
-                    "https://1024terabox.com/s/16gmGXjNHReNLmrpxAH1m2Q",
-                    "https://1024terabox.com/s/1qXXz2yiB8NOI2pHnH-h5ng",
-                    "https://1024terabox.com/s/1aaLluzshanQyT2oCbOKRhA",
-                    "https://1024terabox.com/s/1tcnrBp_g2ttB5qfjAvOvCQ",
-                    "https://1024terabox.com/s/1I1BxvwRdeF5rk1b3b0aTQA",
-                    "https://1024terabox.com/s/10jBzcSidV4vSzJ2hBsN7Hw",
-                    "https://1024terabox.com/s/1xosStpHg01X3ydrHpzDACg",
-                    "https://1024terabox.com/s/1xZDUIAzHmhjTZ_krdJiy9A",
-                    "https://1024terabox.com/s/1eHMtx-sjl2wt3pS_uwC86w",
-                    "https://1024terabox.com/s/11Zb3NY-8iLxPQUfVcqKmCQ",
-                    "https://1024terabox.com/s/1rF1TRlZml95yfacZVLoPsg",
-                    "https://1024terabox.com/s/1-C4JQ1POKP3pqTAQwPqvkw",
-                    "https://1024terabox.com/s/10beVZ9DXZI-wKLkguXzoCw",
-                    "https://1024terabox.com/s/18BATEw8R25NE99qnokKtnA",
-                    "https://1024terabox.com/s/1yQNMvdWgufhveev00Vdv8A",
-                    "https://1024terabox.com/s/1_ZxDWA1YOxRMM4dAyA441A",
-                    "https://1024terabox.com/s/1gotmnE0nPbNli6drmDxJmw",
-                    "https://1024terabox.com/s/14EyP58Loes7OYAWSz7yvhQ",
-                    "https://1024terabox.com/s/1s9EnlluS6hzCLRUPbUDw7Q",
-                    "https://1024terabox.com/s/1l6xYaWDuLEWWjtJfRpqV5Q",
-                    "https://1024terabox.com/s/1BXlW3rS7AzmUmBv4cza9kA",
-                    "https://1024terabox.com/s/15OvQKiU0LqlU_AW8bZJoiQ",
-                    "https://1024terabox.com/s/1qNp5kBlpzXsY9BKb3IFX4g",
-                    "https://1024terabox.com/s/1EX6hQQCqjJU_maevq7Q2CA",
-                    "https://1024terabox.com/s/1B74gbJoalBXCmTv5K3dAyw",
-                    "https://1024terabox.com/s/10hJdeOCuiKQQKIzvyETtnQ",
-                    "https://1024terabox.com/s/1cWN4PRdOxtB_TKzjzPdvqw",
-                    "https://1024terabox.com/s/1jc_dT1ZnP_WdH4z8drj8bQ",
-                    "https://1024terabox.com/s/1gVvOFrGmmOw7ED6l3KFcMA",
-                    "https://1024terabox.com/s/1D3gR_DmGititfhjO_uBndg",
-                    "https://1024terabox.com/s/1JZWEGVioDhMCxAmLUcRobQ",
-                    "https://1024terabox.com/s/1hZaqJ9faOtaljJcbADz-5Q",
-                    "https://1024terabox.com/s/1_4f1YqRn2qkUS8cj4aJmCQ",
-                    "https://1024terabox.com/s/1wMwhJVr1WI6pEwBcU9x6-g",
-                    "https://1024terabox.com/s/1pSSgWHvdR28khFyUqTeIEA",
-                    "https://1024terabox.com/s/1sIV-oSXOgNgPZtDr-azqew",
-                    "https://1024terabox.com/s/1xX_cag7V5KuVo-VD9p5s6Q",
-                    "https://1024terabox.com/s/1IlBcozjA2aAjlA0oE8trTQ",
-                    "https://1024terabox.com/s/1WAk2uQlrilovNgzL9beIiw",
-                    "https://1024terabox.com/s/1pIQHEyYVEReFtTvEI2o0cg",
-                    "https://1024terabox.com/s/1Vi04ZSW73wnyhCn8x187-w",
-                    "https://1024terabox.com/s/1ITEtIzUL3GcIpLTNSGo4Tg",
-                    "https://1024terabox.com/s/1A3XstvHgSTOrB7cEd-1FNg",
-                    "https://1024terabox.com/s/1ttto5bZD_NR3ZNcSR2ac-w"
-                  ]
-            },
-            {
-                temporada:3,
-                episodios:[
-                    "https://1024terabox.com/s/1MnOBX5IzEnN1AgzC8Jyi_A",
-                    "https://1024terabox.com/s/1eLVH-Ji6Po2ONeOrB1eRiw",
-                    "https://1024terabox.com/s/1NPBZx1iAyPiyoc-Sb2etWA",
-                    "https://1024terabox.com/s/1W0ruToTED9nHELSm9Y5TYA",
-                    "https://1024terabox.com/s/1g-IAIhMNQ8COijhR0ZULLA",
-                    "https://1024terabox.com/s/16QAk6rSi6iM2nIPiBP3gqw",
-                    "https://1024terabox.com/s/1RwpXzcSGK1UMbTSYf9yEBQ",
-                    "https://1024terabox.com/s/1q-avsumA3Nu1PRPJ_UeMDQ",
-                    "https://1024terabox.com/s/1b_WQ6DZTAno_SGAeOYk91w",
-                    "https://1024terabox.com/s/1Ue2c16KHhWbO9yGV7HEEtQ",
-                    "https://1024terabox.com/s/1Qb4iz8cGKucqwfzpYjRwcg",
-                    "https://1024terabox.com/s/1PFMvy_OUfNms4eMAXWe3sg",
-                    "https://1024terabox.com/s/1LuXF74mEOeQ3l2YTTX2osw",
-                    "https://1024terabox.com/s/18P_skJs-KGHoXlThKGS-jg",
-                    "https://1024terabox.com/s/13o-6hSemJjKVnKbMGvz2nQ",
-                    "https://1024terabox.com/s/17yyg_O88a434ZACiDA17DA",
-                    "https://1024terabox.com/s/1oHCPoIEjLWsBjl_-WvYaJg",
-                    "https://1024terabox.com/s/1C6VP2Hd6jwgynNSb1Jkdtw",
-                    "https://1024terabox.com/s/1fmrgKkQ2KpLfv_mB-OhpDg",
-                    "https://1024terabox.com/s/18UcO0F4QApID4tg_KVOKvQ",
-                    "https://1024terabox.com/s/1iAwEZvIwo4hjxTo5sCDOFA",
-                    "https://1024terabox.com/s/1NdZMjOufJKUqFQwmBzhMfA",
-                    "https://1024terabox.com/s/1xBPEu0hV5YC9x3RaEsyLKw",
-                    "https://1024terabox.com/s/1Do5moYi4M0nFGodilcJfIA",
-                    "https://1024terabox.com/s/1OmU-Q3OjkRCgkTbq4J1akQ",
-                    "https://1024terabox.com/s/13Nev-r8QcPFK7Nel-WJPhA",
-                    "https://1024terabox.com/s/1CSNMX2lbphMJsW-xjmA-ug",
-                    "https://1024terabox.com/s/1fcYnqumztCY4IXf-3bBiiA",
-                    "https://1024terabox.com/s/1NP04CWxzus6-jTTODTmO4w",
-                    "https://1024terabox.com/s/1xhH1uwD8P1dRKMqtl-ex1w",
-                    "https://1024terabox.com/s/1p1iaAv-ZPXE31mBNW8PwlQ",
-                    "https://1024terabox.com/s/1ubuzRzE2LctQY_LcTWmU2w",
-                    "https://1024terabox.com/s/1LcUOSfLWHc8aboTnfnu6yQ",
-                    "https://1024terabox.com/s/16qHYsV9r07XX1T_Ubm3rhw",
-                    "https://1024terabox.com/s/1XkJSTpztK0Fu8pS0WFIO7w",
-                    "https://1024terabox.com/s/1r9vuAO4GcSJc1xpdlvyfzw",
-                    "https://1024terabox.com/s/1GgNRyduA8Y3soJ9wq4uc-g",
-                    "https://1024terabox.com/s/19JzDiFC79I82HFEyzVJWKA",
-                    "https://1024terabox.com/s/1xgWZkCmurwODPTcCgvxkvQ",
-                    "https://1024terabox.com/s/1QmE3eFuJPjNkKejZCdOoxw",
-                    "https://1024terabox.com/s/1WcZHFwwTSrpXg3XB967_mQ",
-                    "https://1024terabox.com/s/1crYrLm2mT5Ec1peeWXBoTw",
-                    "https://1024terabox.com/s/1QQQxzL488ngSHjM5GkWCgw",
-                    "https://1024terabox.com/s/1P2yvfTcpN8DwfpT2Z37ReA",
-                    "https://1024terabox.com/s/1p-CZFXdcLgqD5PYHqbRkuw",
-                    "https://1024terabox.com/s/1u3BwBXMmkTXsfTHvXA83fQ",
-                    "https://1024terabox.com/s/1a94ChtU1_wTNsV40yVTN8A",
-                    "https://1024terabox.com/s/1PPrM2U0mg3MQKMSUZ5Zemw",
-                    "https://1024terabox.com/s/1myyMAkaeJBQh9LVnUFjsLw",
-                    "https://1024terabox.com/s/15kH9zXla9SmVB0Pdd-I9ZQ",
-                    "https://1024terabox.com/s/1i4A65hPRpPozbEL87jPn_g",
-                    "https://1024terabox.com/s/1RDFg89O7ADVEKSBpk3yI_Q",
-                    "https://1024terabox.com/s/1H0uh1TCFnnqp_-IHHutpnA",
-                    "https://1024terabox.com/s/1EO1tBJJv7HEPxLuwIxViRg"
-                  ]
-            },
-            {
-                temporada:4,
-                episodios:[
-                    "https://1024terabox.com/s/1hrBGpBP4M6Jm5P6mvZUyeQ",
-                    "https://1024terabox.com/s/1dBu6JSpv6rKES0Q0tPBSIQ",
-                    "https://1024terabox.com/s/18Oh65VwPPgVzYhsz304pVQ",
-                    "https://1024terabox.com/s/1KiuyTHkMOaJ_aOD5S9v0fw",
-                    "https://1024terabox.com/s/1b3g7ekaaRNJ8NCcTbV-Nzg",
-                    "https://1024terabox.com/s/1nH3RSfxgtf-4ijn-9SfRvw",
-                    "https://1024terabox.com/s/1-UY8LGxHoEGdN8V_SBeWsg",
-                    "https://1024terabox.com/s/1fYgGZNmVsaFEVAzZwHigwA",
-                    "https://1024terabox.com/s/1Z0szY98IJdi9YDcQ0mep9w",
-                    "https://1024terabox.com/s/1jlJcA1HigVjZ_65EPhC01g",
-                    "https://1024terabox.com/s/1wVhOwHnPh5SDXvKCyml6Tw",
-                    "https://1024terabox.com/s/1nugluxo5usLwdbQskHyuCw",
-                    "https://1024terabox.com/s/1Q0X7ADtuzwWIDsu_YKXxog",
-                    "https://1024terabox.com/s/1WM8YHTTSS0cXveIvvOVQ4Q",
-                    "https://1024terabox.com/s/1Vgi4zOcdoSuEpElzYsAXog",
-                    "https://1024terabox.com/s/1G-ibUKV7u2ETutmnLPUWDA",
-                    "https://1024terabox.com/s/19QcGXD3NR2Bba25V3d6VYQ",
-                    "https://1024terabox.com/s/1YG90Wh_UzBSjoVl5sf_z_Q",
-                    "https://1024terabox.com/s/1NyXMpu7QAKhC87Ui6zoGBw",
-                    "https://1024terabox.com/s/1J3SuLijwVm0HsCNt8jVD6Q",
-                    "https://1024terabox.com/s/1kpCA802ljZ6P-KAP3nAdMw",
-                    "https://1024terabox.com/s/1QEx00281Cu-yQe0FC7Eo3A",
-                    "https://1024terabox.com/s/1rAP_H8e4iGtWKEwNLjPqpw",
-                    "https://1024terabox.com/s/1O4J-KmnCQ9LcVZgtBQEBMQ",
-                    "https://1024terabox.com/s/1xWmo3xgdX0rBHY5WnboNYQ",
-                    "https://1024terabox.com/s/19QaRtTlwTOLswAG91K8JEA",
-                    "https://1024terabox.com/s/1PeWwJeMpHJJv06vQXMRKog",
-                    "https://1024terabox.com/s/1GPhfkMiLKgNBlCLAkWLxMA",
-                    "https://1024terabox.com/s/1Q6dTRWFVfmWQWm7IncMOOA",
-                    "https://1024terabox.com/s/1QOnLEC-FvQYToIjyJpMJzg",
-                    "https://1024terabox.com/s/1b60BtQrjThH1Fa5IDq_-4Q",
-                    "https://1024terabox.com/s/1gARNuBhdzX--UEsS2_83lQ",
-                    "https://1024terabox.com/s/1wx2GDV4mdy1_7YfXs-yuOw",
-                    "https://1024terabox.com/s/16K3bx-6imgpjJhV3xoyAIg",
-                    "https://1024terabox.com/s/1JMZfV15SdJ6U2fGWR2UwzQ",
-                    "https://1024terabox.com/s/1V58yYdKDsGUDfTZ53nCFnA",
-                    "https://1024terabox.com/s/129oqiq1VBdg2rmprDU2ojA",
-                    "https://1024terabox.com/s/172SJ7TsK88gBbRX7RcpP3A",
-                    "https://1024terabox.com/s/1JfgjVtBDZRvF-9xZ32weMA",
-                    "https://1024terabox.com/s/1rzuEJs8yxO9vV1lv85ZRmA",
-                    "https://1024terabox.com/s/1g09fQTinIcSBHIZSPcv_og",
-                    "https://1024terabox.com/s/15MvvPjzMU5Qo4SNf2nhoUQ",
-                    "https://1024terabox.com/s/169nDkCk9IX8-Ifba9FPM0Q",
-                    "https://1024terabox.com/s/12YPAtQc_FQqPCWF2d9n3lQ",
-                    "https://1024terabox.com/s/18gzyutsRQXxkbdIlXi7vBg",
-                    "https://1024terabox.com/s/1-lhiLnguM3WM0esHgNdoEg",
-                    "https://1024terabox.com/s/1gMNCAJinerOgbhmnuKB7aA",
-                    "https://1024terabox.com/s/1qNfMriy2dkqopvdWsLaKoQ",
-                    "https://1024terabox.com/s/18G85P4ysqemfRyDWPiUDlA",
-                    "https://1024terabox.com/s/1csoXQLd78gnb0hJb6R42-w",
-                    "https://1024terabox.com/s/1gtEXxkI3L4GkbkwX5SqrtA",
-                    "https://1024terabox.com/s/1qGTMi19PkQXw_LdRio__9A",
-                    "https://1024terabox.com/s/1ykDSKOmq6xSTKQOo1UM-uA",
-                    "https://1024terabox.com/s/1f0CcbqRH8WAsY9MksNCtbw",
-                    "https://1024terabox.com/s/1qJO1R4Mz7gDrEz--1HIXXw",
-                    "https://1024terabox.com/s/1VlZ2lhqR637Y3eIDNNWgPw",
-                    "https://1024terabox.com/s/1_g2iG7SE35qTAIvIx8F6OA",
-                    "https://1024terabox.com/s/1IBqjjLr2o6BBqnulE2eFFw",
-                    "https://1024terabox.com/s/1nTtwS8NvOHHVgbdjWrsLPA",
-                    "https://1024terabox.com/s/1i7nMAqajRAg8yCQZS3ujcg",
-                    "https://1024terabox.com/s/181qoF6zhmqoJarlx5kM6gQ",
-                    "https://1024terabox.com/s/15I0feaRl755B0qgnUjh83g",
-                    "https://1024terabox.com/s/1wywJzgaOEL5VhjgD151a2w"
-                  ]
-            }
-        ]
     }
 ];
 
 
 
-
-
-
-
-
-
-// Función para ordenar alfabéticamente por la propiedad 'nombre'
-function ordenarAlfabeticamente(array) {
-    array.sort((a, b) => {
-      const nombreA = a.nombre.toLowerCase(); // Convertir ambos nombres a minúsculas para comparación insensible a mayúsculas/minúsculas
-      const nombreB = b.nombre.toLowerCase();
-      
-      if (nombreA < nombreB) {
-        return -1;
-      } else if (nombreA > nombreB) {
-        return 1;
-      } else {
-        return 0; // Si los nombres son iguales, considerarlos iguales para la ordenación
-      }
-    });
-  }
-  
-  // Ordenar los arrays
-  ordenarAlfabeticamente(window.listaCompletaGeneral);
-  ordenarAlfabeticamente(window.listaCrearPelicula);
-
- 
