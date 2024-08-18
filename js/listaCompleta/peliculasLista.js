@@ -282,7 +282,68 @@ window.listaCrearPelicula = [
         sinopsis: "Un joven descubre una garza mágica que lo lleva a un mundo de fantasía, donde deberá enfrentar desafíos para encontrar su verdadero destino...",
         imagen: "https://i.ibb.co/VMwKBvX/El-chico-y-la-garza-226243829-large-resultado.webp",
         url: "https://1024terabox.com/s/1sm7HVqY-vZFkTYGkUafeOA"
+    },
+    {
+        nombre:"El señor de los anillos La comunidad del anillo",
+        sinopsis:"Frodo y sus amigos emprenden una épica misión para destruir un anillo maldito. A través de paisajes imponentes y enfrentando oscuros enemigos, su viaje será crucial para la libertad de la Tierra Media...",
+        imagen:"https://i.ibb.co/C6QHJZL/El-seanor-de-los-anillos-La-comunidad-del-anillo-744631610-large-resultado.webp",
+      	url:"https://terabox.com/s/1ZKnzovPNj1K7RueOcjLJbw"
+    },
+    {
+        nombre:"El señor de los anillos Las dos torres",
+        sinopsis:"La comunidad se divide mientras la lucha contra el mal continúa. Frodo y Sam enfrentan traiciones, mientras Aragorn y sus aliados luchan por salvar Rohan y combatir a la creciente oscuridad en la Tierra Media...",
+        imagen:"https://i.ibb.co/PM4p7S0/El-seanor-de-los-anillos-Las-dos-torres-450612576-large-resultado.webp",
+      	url:"https://terabox.com/s/1bhjXU6lghI85JV9FexeuRg"
+    },
+    {
+        nombre:"El señor de los anillos El retorno del rey",
+        sinopsis:"La batalla final por la Tierra Media se acerca. Frodo y Sam se enfrentan a desafíos finales para destruir el anillo, mientras las fuerzas del bien y del mal se enfrentan en una épica confrontación...",
+        imagen:"https://i.ibb.co/6J4Jz2k/retur-rey-resultado.webp",
+      	url:"https://terabox.com/s/15Z4gN05spIV5pJfxvyqqwg"
+    },
+    {
+        nombre:"deadpool 3",
+        sinopsis:"",
+        imagen:"",
+      	url:"https://terabox.com/s/1xDZ4C1vKhZ-My4r_mOHPAA"
+    },
+    {
+        nombre:"rocky 1",
+        sinopsis:"Un boxeador de Filadelfia, Rocky Balboa, tiene la oportunidad de su vida al enfrentarse al campeón mundial, Apollo Creed, en una pelea que definirá su destino y espíritu de lucha...",
+        imagen:"https://i.ibb.co/n17phmN/1-resultado.webp",
+      	url:"https://terabox.com/s/1KRiqIwe-NyM2sBjpFsKzmw"
+    },
+    {
+        nombre:"rocky 2",
+        sinopsis:"Después de su primera pelea con Apollo Creed, Rocky Balboa se enfrenta a nuevos desafíos personales y profesionales, culminando en una revancha épica por el título mundial...",
+        imagen:"https://i.ibb.co/tp6Th0W/2-resultado.webp",
+      	url:"https://terabox.com/s/1tekFO7dONFx7ERtZB1nlzg"
+    },
+    {
+        nombre:"rocky 3",
+        sinopsis:"Rocky Balboa, ahora campeón, enfrenta a Clubber Lang, un oponente implacable que lo obliga a redescubrir su fortaleza interior y revivir la chispa que lo hizo una leyenda...",
+        imagen:"https://i.ibb.co/wsjGVT9/3-resultado.webp",
+      	url:"https://terabox.com/s/1wwCn5XRVcJmp9689GX89qw"
+    },
+    {
+        nombre:"rocky 4",
+        sinopsis:"Enfrentando a Ivan Drago, un boxeador soviético invencible, Rocky lucha no solo por honor, sino también por su país y la memoria de su amigo Apollo Creed...",
+        imagen:"https://i.ibb.co/nR25LVB/4-resultado.webp",
+      	url:"https://terabox.com/s/1aya8Ir5ogJR7dZ6zoftTKg"
+    },
+    {
+        nombre:"rocky 5",
+        sinopsis:"Rocky Balboa, retirado y enfrentando dificultades, entrena a un joven boxeador mientras lucha contra sus propios demonios y busca redescubrir el verdadero espíritu de un campeón...",
+        imagen:"https://i.ibb.co/PwmyTzY/5-resultado.webp",
+      	url:"https://terabox.com/s/1HjL6BLpjC-tytcICSllsaw"
+    },
+    {
+        nombre:"rocky balboa",
+        sinopsis:"Rocky, ahora retirado y llevando una vida tranquila, regresa al ring para enfrentar al actual campeón en una última pelea. Enfrentando sus propios miedos, busca redimir su legado y demostrar que aún tiene el corazón de un campeón...",
+        imagen:"",
+      	url:"https://terabox.com/s/1Ex0d61I1Ok6rQb9znlunSw"
     }
+
 
     
 ];
