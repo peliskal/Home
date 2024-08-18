@@ -1270,7 +1270,60 @@ window.listaCompletaGeneral = [
                   ]
             }
         ]
+    },
+    {
+        nombre:"malcom el del medio",
+        sinopsis:"",
+        imagen:"https://i.ibb.co/48t7H3p/mdm-resultado.webp",
+        temporadas:[
+            {
+                temporada:1,
+                episodios:[
+                    "https://terabox.com/s/14PsNtq1gxhICXNyMOVPYMQ",
+                    "https://terabox.com/s/1HJcBwyn91gCrAlpRtIhM1w",
+                    "https://terabox.com/s/1K-qlZPK9PYu480B7LTUxOw",
+                    "https://terabox.com/s/1YALJQFHWuRp1Ss5f5DCU6w",
+                    "https://terabox.com/s/1gJCG-_IaTOh9M13AiQ_Pyg",
+                    "https://terabox.com/s/1cKOdZLC16jXLu7AwDQaSPA",
+                    "https://terabox.com/s/1nl2JXNfcWKbyrFTZGOnDRA",
+                    "https://terabox.com/s/1z2Umsob7H3Egz-QCEDpCDg",
+                    "https://terabox.com/s/1SUeN7aIXT-X3PA_5-dzSsQ",
+                    "https://terabox.com/s/1GAPAOOmtaMDscU6gJMs3KA",
+                    "https://terabox.com/s/15zrwYmwb6weZrNUYwQ0uHg",
+                    "https://terabox.com/s/1e7SUy1lE9BRZ1PkXwDk7aw",
+                    "https://terabox.com/s/1QmLgx3fQsmb2c59Xa86WSg",
+                    "https://terabox.com/s/1AYj-oEZ651ixgj1B04bZjw",
+                    "https://terabox.com/s/157FYCN3jiRZSAjMxOOgS4Q",
+                    "https://terabox.com/s/1UYUaS_kVgwtckl3j-KXFeg"
+                  ]
+            },
+            {
+                temporada:2,
+                episodios:[]
+            },
+            {
+                temporada:3,
+                episodios:[]
+            },
+            {
+                temporada:4,
+                episodios:[]
+            },
+            {
+                temporada:5,
+                episodios:[]
+            },
+            {
+                temporada:6,
+                episodios:[]
+            },
+            {
+                temporada:7,
+                episodios:[]
+            }
+        ]
     }
+
 ];
 
 
