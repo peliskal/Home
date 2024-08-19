@@ -41,7 +41,7 @@ window.listaCrearPelicula = [
         "nombre": "Bad Boys 2024",
         "sinopsis": "Mike Lowrey y Marcus Burnett regresan para una nueva aventura llena de acción y humor mientras investigan una red criminal internacional.",
         "imagen": "https://i.ibb.co/SVRGf5H/Bad-Boys-4-1690882856-resultado.webp",
-        "url": "https://1024terabox.com/s/1b79KQ5zC_42lR7iUu1On9g"
+        "url": "https://terabox.com/s/17n5zz9TVkN9Q2vzh-aZ_vQ"
       },
       {
         "nombre": "Mi Villano Favorito 4 2024",
@@ -303,9 +303,9 @@ window.listaCrearPelicula = [
     },
     {
         nombre:"deadpool 3",
-        sinopsis:"",
-        imagen:"",
-      	url:"https://terabox.com/s/1xDZ4C1vKhZ-My4r_mOHPAA"
+        sinopsis:"Deadpool regresa con su irreverente humor y acción desmedida en una nueva aventura. Esta vez, se enfrenta a enemigos inesperados y aliados sorprendentes, desatando el caos en el multiverso...",
+        imagen:"https://i.ibb.co/x3x89tJ/dp-resultado.webp",
+      	url:"https://terabox.com/s/1XGRPCeST3EFeJ3OCm0JZpw"
     },
     {
         nombre:"rocky 1",
@@ -340,9 +340,40 @@ window.listaCrearPelicula = [
     {
         nombre:"rocky balboa",
         sinopsis:"Rocky, ahora retirado y llevando una vida tranquila, regresa al ring para enfrentar al actual campeón en una última pelea. Enfrentando sus propios miedos, busca redimir su legado y demostrar que aún tiene el corazón de un campeón...",
-        imagen:"",
+        imagen:"https://i.ibb.co/GcLhHwD/20060317-resultado.webp",
       	url:"https://terabox.com/s/1Ex0d61I1Ok6rQb9znlunSw"
+    },
+    {
+        nombre:"como entrenar a tu dragon",
+        sinopsis:"Hipo, un joven vikingo, desafía las tradiciones al hacerse amigo de un dragón llamado Chimuelo, cambiando para siempre la relación entre vikingos y dragones...",
+        imagen:"https://i.ibb.co/PWFV87T/Como-Entrenaratu-Dragon-resultado.webp",
+      	url:"https://terabox.com/s/12UA0Qnva4fnCR7QdLDankw"
+    },
+    {
+        nombre:"como entrenar a tu dragon 2",
+        sinopsis:" Hipo y Chimuelo descubren una cueva llena de dragones salvajes y enfrentan a un nuevo enemigo que amenaza la paz entre humanos y dragones...",
+        imagen:"https://i.ibb.co/4VQgNhp/como-entrenar-a-tu-dragon-2-resultado.webp",
+      	url:"https://terabox.com/s/1dGdpVa5m8_A0uuqDzJzOVA"
+    },
+    {
+        nombre:"como entrenar a tu dragon 3",
+        sinopsis:" Hipo y Chimuelo deben proteger su hogar y a los dragones de una nueva amenaza, mientras Chimuelo descubre su verdadero destino...",
+        imagen:"https://i.ibb.co/XkbGxJk/cetd3-resultado.webp",
+      	url:"https://terabox.com/s/1zt-ft1fO1Ti_6GsdmXZtBQ"
+    },
+    {
+        nombre:"el origen de los guardianes",
+        sinopsis:"Jack Frost se une a Santa Claus, el Conejo de Pascua y otros Guardianes para proteger la inocencia de los niños del malvado Sombra, que busca sembrar el miedo en el mundo...",
+        imagen:"https://i.ibb.co/wM3RgSq/20282576.webp",
+      	url:"https://terabox.com/s/19-80huuohKyQlvKl0APi0w"
+    },
+    {
+        nombre:"el cadaver de la novia",
+        sinopsis:"Victor, tras un desafortunado incidente, se encuentra casado con una novia cadáver en el inframundo, mientras su verdadero amor lo espera en el mundo de los vivos...",
+        imagen:"https://i.ibb.co/nLjgzRS/20065463-resultado.webp",
+      	url:"https://terabox.com/s/1C1eP-2V0mAiwYyz9qEQ9Xg"
     }
+
 
 
     

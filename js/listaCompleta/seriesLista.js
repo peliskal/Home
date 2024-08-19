@@ -259,15 +259,57 @@ window.listaCompletaGeneral = [
             },
             {
                 temporada:2,
-                episodios:[]
+                episodios:[
+                    "https://terabox.com/s/1SRQqCr0CTSk5NLuAhC1R8w",
+                    "https://terabox.com/s/1PED5kuWc3Ph6yD1yNwBlGg",
+                    "https://terabox.com/s/1LuU0h--VJJePPx70BuP-xQ",
+                    "https://terabox.com/s/1P2TytjDBFKB2RlOOoUlwBQ",
+                    "https://terabox.com/s/11BuFWdecuzYxDfo4UiXqNQ",
+                    "https://terabox.com/s/14x750-0YteYqznMzfNbyWw",
+                    "https://terabox.com/s/1T1c9-w1u06k71kaW881HzQ",
+                    "https://terabox.com/s/1yv65WtonX0T5BX4ffZ-1WQ",
+                    "https://terabox.com/s/1BGzI96RwzpSjibGDuXyOvw",
+                    "https://terabox.com/s/15IbSw8IlbHCOsTdyRneIYg",
+                    "https://terabox.com/s/1tK4PmGv3vsw2QPqa9G5uZA",
+                    "https://terabox.com/s/1TM9qpaSwwLmtXPuvNtndzg",
+                    "https://terabox.com/s/1q7KILpY7fq9a9qALQHO-cg"
+                  ]
             },
             {
                 temporada:3,
-                episodios:[]
+                episodios:[
+                    "https://terabox.com/s/1ORaIY8VjDtCVroTYOEgqmw",
+                    "https://terabox.com/s/1hl3724SVVbvin3p2yHly_A",
+                    "https://terabox.com/s/103HMLCjqo87jveBAOy0hGA",
+                    "https://terabox.com/s/1FoDh_e_GZ-kvLY34xamUZQ",
+                    "https://terabox.com/s/1KqPxfu4jyAhjpKH6LqJ5rA",
+                    "https://terabox.com/s/1CnYKjaHacVALpA002KoQxA",
+                    "https://terabox.com/s/1zoFouxqLQQfLRsoww5WsQw",
+                    "https://terabox.com/s/1jI6JC9aT6wWduDOD7mnp3Q",
+                    "https://terabox.com/s/1QkJZyvdxdmAZ-8KvizZGjQ",
+                    "https://terabox.com/s/1ah56yWTE2FkcfSeyAIY7Vw",
+                    "https://terabox.com/s/1hW98c4IxuacP1WC1ADvlaw",
+                    "https://terabox.com/s/12wsqWEZipjnpZbPZWqqiIA",
+                    "https://terabox.com/s/1LeI_EWovhxpVdSXG6dQ9IQ"
+                  ]
             },
             {
                 temporada:4,
-                episodios:[]
+                episodios:[
+                    "https://terabox.com/s/1xsMfxT_MDGUqFHZN1OK2JA",
+                    "https://terabox.com/s/1mXyT65384UXodakHJXeLGA",
+                    "https://terabox.com/s/1I1nnK2eyyXARafTMCY8NFw",
+                    "https://terabox.com/s/1yfI5R6V-BOymVcUKH_ZbdA",
+                    "https://terabox.com/s/1ZqQ0svEg6cFUQ89sz9YkAg",
+                    "https://terabox.com/s/1yjgprUDvu_pcYAx3wtTP7w",
+                    "https://terabox.com/s/1_pQgQuUiXecf90X69FmygA",
+                    "https://terabox.com/s/1lejixk5b6fBQX5WlAqTebA",
+                    "https://terabox.com/s/1P9q_WrLfD4wNm4UV9PEMTg",
+                    "https://terabox.com/s/1ZPQ1_T2cHmR2F0OM47d8ig",
+                    "https://terabox.com/s/19ahEK-ss6o3x_6JxW6NOaA",
+                    "https://terabox.com/s/15Aqeh25ogfripO1Fm2aX8Q",
+                    "https://terabox.com/s/15wtv7XYbteAzdZ0F6CcSIA"
+                  ]
             }
         ]
     },
@@ -589,7 +631,42 @@ window.listaCompletaGeneral = [
         temporadas: [
             {
                 temporada: 1,
-                episodios: ["https://freeterabox.com/s/1LFUbSpIJ23CLVl-XLHmy7Q"]
+                episodios: [
+                    "https://terabox.com/s/1P_JFohl5VYiddTCSTeIJzQ",
+                    "https://terabox.com/s/1QurObQ1NgaIRVyn5f5tT0w",
+                    "https://terabox.com/s/1HnWOJI4alcUPrUJZTEzKCQ",
+                    "https://terabox.com/s/1PV4k7NKxprwy8ETvLfIfJg",
+                    "https://terabox.com/s/1gu7zMBuzmRa0ttkvmXKPtw",
+                    "https://terabox.com/s/1uw_PL8pKSvtjYEJELlmNqA",
+                    "https://terabox.com/s/1Bp_yjBXDfY8v1NXWhcC1tQ",
+                    "https://terabox.com/s/1Ld_s5GuyZEE2km4DIw1rHA",
+                    "https://terabox.com/s/1iVjw84TV9wum8pDLtkEmcw",
+                    "https://terabox.com/s/1RLrcPAjc3wWTJXx79oK3sw",
+                    "https://terabox.com/s/1lmHEq-AQCia2uMMAPLeCmg",
+                    "https://terabox.com/s/1ETAe_6vD0MvPSz63i9coTA",
+                    "https://terabox.com/s/13Bp30_oKVpTxEidzkzUAtA",
+                    "https://terabox.com/s/1ePRqibrYzRJDSj5AiTsCPw",
+                    "https://terabox.com/s/1229YJO5MAjdIUAzPbeUQKA",
+                    "https://terabox.com/s/1ZxIawepDy6QFGr_5NpXtYQ",
+                    "https://terabox.com/s/1QNtIE1wCGKzzRmjvA4R_3w",
+                    "https://terabox.com/s/1xuyxTgFAxBXZoqgit4wyKg",
+                    "https://terabox.com/s/1N30d0YAAJD7WwsnaCQ2sjQ",
+                    "https://terabox.com/s/1t08uKau0D-rk016dbYsOgQ",
+                    "https://terabox.com/s/177xQ_x2jwzQy-IRjbYxGTg",
+                    "https://terabox.com/s/1TgMoXqGWE6c_rbOTvmp7Aw",
+                    "https://terabox.com/s/1Hnez0d58qoJFIS26eS5jHg",
+                    "https://terabox.com/s/1cl27l4UwqjQBLpWWEdlJCA",
+                    "https://terabox.com/s/1Y3JlBznTavttJbNSc7ZLBg",
+                    "https://terabox.com/s/1Pq5PtmmY0LNTmFwlr2b6IQ",
+                    "https://terabox.com/s/1TlljymL6s6qK-eIlPnu5qg",
+                    "https://terabox.com/s/15ZOyOUzc7TmrKn8OQKSR7A",
+                    "https://terabox.com/s/1eNpwh9xhSsgrPgLshCmi6Q",
+                    "https://terabox.com/s/1AxOkK3b3i1kz4fHVcKdYAQ",
+                    "https://terabox.com/s/1JPTJjjWI54es9lJ4eqw25Q",
+                    "https://terabox.com/s/1wXUev0GXqGLu2o0Ys0zyxQ",
+                    "https://terabox.com/s/1onND3FksCZQOD9Ilw32D5Q",
+                    "https://terabox.com/s/1UUjGPoRDFGWrSS2DT9LBKQ"
+                  ]
             }
         ]
     },
@@ -1299,11 +1376,60 @@ window.listaCompletaGeneral = [
             },
             {
                 temporada:2,
-                episodios:[]
+                episodios:[
+                    "https://terabox.com/s/1wQKz77PcoSzdpue5BgreTA",
+                    "https://terabox.com/s/1FltUxA3GjlC6jfCpLknqjg",
+                    "https://terabox.com/s/1if9g55leX-uTY5HPcKKRcg",
+                    "https://terabox.com/s/11EWa7t2EX7ljiiokMYJVLw",
+                    "https://terabox.com/s/1lzVkWH_FDae-ZzPqOTHZeQ",
+                    "https://terabox.com/s/1ziDnyctvEG02Ws46ZmXldw",
+                    "https://terabox.com/s/1tQdnTxf6LlZWSAAzwMgd1g",
+                    "https://terabox.com/s/1JFP_G9hfeBWf84nQezOJvA",
+                    "https://terabox.com/s/1ZwcnBw8zBrce27dnCstKPA",
+                    "https://terabox.com/s/1ltdX4KzGHzk_eOurM2ySIQ",
+                    "https://terabox.com/s/1UQjWebNm58hi_3DmySbo9A",
+                    "https://terabox.com/s/1cOFysu6E9woWHrfg9tT30A",
+                    "https://terabox.com/s/16R7x6rbLRXeqHQ9teIPErw",
+                    "https://terabox.com/s/1iK7hh0dPj4ul4FjEdXin6A",
+                    "https://terabox.com/s/1YmFphPDV82DQoGX-Jfmpyg",
+                    "https://terabox.com/s/18T5rxGdgnsjDvDuQUIqTwg",
+                    "https://terabox.com/s/12IG22FA9tYhhO76DhMP5Ig",
+                    "https://terabox.com/s/1FMgceb0TS3mSmTjI8_IhoA",
+                    "https://terabox.com/s/1ZSGGzHZUF1Pf7Xf_vE84mQ",
+                    "https://terabox.com/s/1YS14XjO5Cmj40MWW_b2gxg",
+                    "https://terabox.com/s/1Hu1GlIbGVGXspx2A5MK0Zg",
+                    "https://terabox.com/s/1La8ppB6YivRItb7Y8Z03Gg",
+                    "https://terabox.com/s/1QX-0flNVNlG-ciizYnq07A",
+                    "https://terabox.com/s/1nX2_E-AW3nl1WLmVjAx0bA",
+                    "https://terabox.com/s/1KZsFivxVulh_B9pycIqcZw"
+                  ]
             },
             {
                 temporada:3,
-                episodios:[]
+                episodios:[
+                    "https://terabox.com/s/1RpIE_sf5JQzAK2bN1uKz_w",
+                    "https://terabox.com/s/1_thfjftHeW4DohMUXuNcwg",
+                    "https://terabox.com/s/1eeSSSKhNxFfH5iSQ53ZbSA",
+                    "https://terabox.com/s/1fBw5XMu5F5Kym9L_5CFzlQ",
+                    "https://terabox.com/s/1PoKZkxTIpNpGvMWtZdfAsQ",
+                    "https://terabox.com/s/1NlgplauGEsm70NUsLvrp8w",
+                    "https://terabox.com/s/1SeTVp_Gc-23Hx2770G8CkQ",
+                    "https://terabox.com/s/1ce9UjDfDTLb-Vyi3fEnv_Q",
+                    "https://terabox.com/s/1VMUsBh7eA5yoG1Akksenjw",
+                    "https://terabox.com/s/1JbtvhMMSP1rtzfz8OLks5w",
+                    "https://terabox.com/s/1eKcOSSsbArBgB6pP6vycqA",
+                    "https://terabox.com/s/1dZk17kSlNoaTV105rPPflQ",
+                    "https://terabox.com/s/1mrzKDbS_V_gpGZEN0lJXIQ",
+                    "https://terabox.com/s/160gdiu3Ly9GXfE6xl5QTAQ",
+                    "https://terabox.com/s/1sq-ajrm2KOZguC5jYs9duw",
+                    "https://terabox.com/s/1thB3OP1Nk3YU77zhX8iw3A",
+                    "https://terabox.com/s/1fr8S3TisZzjiAcpz4ownAg",
+                    "https://terabox.com/s/17UVVUNJCFliLWkP2RKn4tA",
+                    "https://terabox.com/s/10Ygu0cSXu5A1zXf0H08hcQ",
+                    "https://terabox.com/s/1HCQ-9h-nrIfFXIlbINLijQ",
+                    "https://terabox.com/s/1R9192dPe9GqBkSKK5rE_dg",
+                    "https://terabox.com/s/1tIxTqHN0UYSJq4Ag5cS_OQ"
+                  ]
             },
             {
                 temporada:4,
